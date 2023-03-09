@@ -1,0 +1,13 @@
+.cabecera{
+    padding: 0 15px 0 15px;
+    background-color: pink;
+}
+.cabecera__contenedor{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;    
+}
+.cabecera__buscar{
+    display: flex;
+    width: 15%;    
+}
