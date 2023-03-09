@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cabecera.css">
+    <link rel="stylesheet" href="css/banner.css">
 </head>
 <body>
     <header class="cabecera">
@@ -19,15 +20,25 @@
             <img src="img/Logo.png" alt="Logo de la tienda" class="cabecera__logo">
             <div class="cabecera__contenedorb">
                 <div class="cabecera__buscar">
-                    <input type="text" placeholder="Buscar">
-                    <div class="boton"><i class="fa fa-search"></i>
-                    </div>
-                </div>        
-            </div>
-            <span class="cabecera__login">Login</span>
-        </div>
+                    <input class="cabecera__input" type="text" placeholder="Buscar">
+                    <div class="cabecera__icono">
+                        <i class="fa fa-search"></i>    
+                </div>
+                </div>            
+            <a href="#">
+            <span class="cabecera__login">Login</span>            
+        </a>
+    </div>        
     </header>
     <main class="main">
+        <section class="banner">
+            <img src="img/banner.png" alt="imagen de portada" class="banner__img">
+            <div class="banner__contenedor">
+            <h2 class="banner__titulo">Diciembre promociones</h2>
+            <h3 class="banner__subtitulo">Productos selecionados con 33% de descuento</h3>
+            <span class="banner__boton">Chocolates</span>
+            </div>
+        </section>
     </main>
 </body>
 </html>

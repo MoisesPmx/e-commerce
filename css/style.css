@@ -1,5 +1,10 @@
 :root{
-    --raleway: 'Raleway', sans-serif
+    --raleway: 'Raleway', sans-serif;
+    --color_cabecera: #ccd5ae;
+    --color_boton-login: #d4a373;
+    --color_boton-fuente: #f5f5f5;
+    --color_buscar-bkg: #fefae0;
+    --color_banner-titulo: #fdfdfd;
 }
 
 body{
