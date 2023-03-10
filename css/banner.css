@@ -1,10 +1,36 @@
-.banner__img{
+.banner{
     width: 100%;
+    background-color: var(--color_bkg-pastel);
+}
+.banner__img{
+    width: 100%;        
 }
 .banner__contenedor{
     position: absolute;
-    top: 45%;
-    left: 5%;
+    top: 20vw;
+    padding-left: 10%;
     transform: translate(0, -50%);
     color: var(--color_banner-titulo);    
+}
+.banner__titulo{
+    font-size: 2.7rem;
+    font-weight: 600;    
+}
+.banner__subtitulo{
+    font-size: 1.1rem;
+    padding: 7px 0 15px;
+    font-weight: 500;
+}
+.banner__boton{
+    width: 120px;
+    height: 40px;
+    background-color: var(--color_boton-login);
+    color: var(--color_boton-fuente);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
 }

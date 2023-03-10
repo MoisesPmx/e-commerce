@@ -1,12 +1,25 @@
 :root{
     --raleway: 'Raleway', sans-serif;
     --color_cabecera: #ccd5ae;
-    --color_boton-login: #d4a373;
+    --color_boton-login: #0081a7;
     --color_boton-fuente: #f5f5f5;
     --color_buscar-bkg: #fefae0;
     --color_banner-titulo: #fdfdfd;
+    --color_buscar-icono: #dda15e;
+    --color_buscar-texto: #dda15e;
+    --color_titulo: #000000;
+    --color_boton-comprar: #dda15e;
+    --color_bkg-pastel: #e9edc9;
+    --color_bkg-bebidas: #e9edc9;
+    --color_bkg-card: #fefae0;
 }
 
 body{
     font-family: var(--raleway)
+}
+.titulo{
+    color: var(--color_titulo);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 20px;
 }

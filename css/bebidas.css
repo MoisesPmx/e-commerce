@@ -1,0 +1,41 @@
+.bebidas {
+    padding: 40px 0 20px;
+    width: 100%;
+    background-color: var(--color_bkg-bebidas);
+}
+.bebidas__contenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10% 0 10%;
+}
+.bebidas__lista {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bebidas__item {
+    width: 150px;    
+    background-color: var(--color_bkg-card);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+    border-radius: 15px;
+}
+.bebidas__img{
+    border-radius: 15px;
+}
+.bebidas__nombre{
+    font-weight: 600;
+    font-size: .9rem;
+}
+.bebidas__precio {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.bebidas__boton {
+    color: var(--color_boton-comprar);
+    font-weight: 500;
+    font-size: 1rem;
+}

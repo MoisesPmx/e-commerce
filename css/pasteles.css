@@ -1,0 +1,41 @@
+.pastel {
+    padding: 40px 0 20px;
+    width: 100%;
+    background-color: var(--color_bkg-pastel);
+}
+.pastel__contenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10% 0 10%;
+}
+.pastel__lista {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pastel__item {
+    width: 150px;    
+    background-color: var(--color_bkg-card);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+    border-radius: 15px;
+}
+.pastel__img{
+    border-radius: 15px;
+}
+.pastel__nombre{
+    font-weight: 600;
+    font-size: .9rem;
+}
+.pastel__precio {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.pastel__boton {
+    color: var(--color_boton-comprar);
+    font-weight: 500;
+    font-size: 1rem;
+}
