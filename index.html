@@ -1,89 +1,400 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Online</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cabecera.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/pasteles.css">
-    <link rel="stylesheet" href="css/bebidas.css">
-    <link rel="stylesheet" href="css/variedad.css">
-</head>
-<body>
-    <header class="cabecera">
-        <div class="cabecera__contenedor">
-            <img src="img/Logo.png" alt="Logo de la tienda" class="cabecera__logo">
-            <div class="cabecera__contenedorb">
-                <div class="cabecera__buscar">
-                    <input class="cabecera__input" type="text" placeholder="Buscar">
-                    <div class="cabecera__icono">
-                        <i class="fa fa-search"></i>    
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tienda Online</title>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/cabecera.css" />
+        <link rel="stylesheet" href="css/banner.css" />
+        <link rel="stylesheet" href="css/pasteles.css" />
+        <link rel="stylesheet" href="css/bebidas.css" />
+        <link rel="stylesheet" href="css/variedad.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+    </head>
+    <body>
+        <header class="cabecera">
+            <div class="cabecera__contenedor">
+                <img
+                    src="img/Logo.png"
+                    alt="Logo de la tienda"
+                    class="comercio__logo"
+                />
+                <div class="cabecera__contenedorb">
+                    <div class="cabecera__buscar">
+                        <input
+                            class="cabecera__input"
+                            type="text"
+                            placeholder="Buscar"
+                        />
+                        <div class="cabecera__icono">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <span class="cabecera__login">Login</span>
+                    </a>
                 </div>
-                </div>            
-            <a href="#">
-            <span class="cabecera__login">Login</span>            
-        </a>
-    </div>        
-    </header>
-    <main class="main">
-        <section class="banner">
-            <img src="img/banner.jpg" alt="imagen de portada" class="banner__img">
-            <div class="banner__contenedor">
-            <h2 class="banner__titulo">Diciembre promocionales</h2>
-            <h3 class="banner__subtitulo">Productos selecionados con 33% de descuento</h3>
-            <a href="#" class="banner__link">
-            <span class="banner__boton">Chocolates</span>
-        </a>
             </div>
-        </section>
-        <section class="pastel">
-            <div class="pastel__contenedor">
-            <span class="pastel__titulo titulo">Pasteles</span>
-            <ul class="pastel__lista">
-                <li class="pastel__item"><img class="pastel__img" src="img/pastel0.png" alt=""><span class="pastel__nombre">Chokomilk</span><span class="pastel__precio">$ 429</span><a href="" class="pastel__link"><span class="pastel__link">Ver Producto</span></a></li>
-                <li class="pastel__item"><img class="pastel__img" src="img/pastel1.png" alt=""><span class="pastel__nombre">Dulcinea</span><span class="pastel__precio">$ 349</span><a href="" class="pastel__link"><span class="pastel__link">Ver Producto</span></a></li>
-                <li class="pastel__item"><img class="pastel__img" src="img/pastel2.png" alt=""><span class="pastel__nombre">Mamma mia</span><span class="pastel__precio">$ 499</span><a href="" class="pastel__link"><span class="pastel__link">Ver Producto</span></a></li>
-                <li class="pastel__item"><img class="pastel__img" src="img/pastel3.png" alt=""><span class="pastel__nombre">Yabai</span><span class="pastel__precio">$ 599</span><a href="" class="pastel__link"><span class="pastel__link">Ver Producto</span></a></li>
-                <li class="pastel__item"><img class="pastel__img" src="img/pastel4.png" alt=""><span class="pastel__nombre">Amargo</span><span class="pastel__precio">$ 399</span><a href="" class="pastel__link"><span class="pastel__link">Ver Producto</span></a></li>
-                <li class="pastel__item"><img class="pastel__img" src="img/pastel5.png" alt=""><span class="pastel__nombre">Delicious</span><span class="pastel__precio">$ 459</span><a href="" class="pastel__link"><span class="pastel__link">Ver Producto</span></a></li>
-            </ul>
-        </div>
-        </section>
-    </section>
-    <section class="bebidas">
-        <div class="bebidas__contenedor">
-        <span class="bebidas__titulo titulo">Bebidas</span>
-        <ul class="bebidas__lista">
-            <li class="bebidas__item"><img class="bebidas__img" src="img/bebida3.png" alt=""><span class="bebidas__nombre">Chokokoa</span><span class="bebidas__precio">$ 129</span><a href="" class="pastel__link"><span class="bebidas__link">Ver Producto</span></a></li>
-            <li class="bebidas__item"><img class="bebidas__img" src="img/bebida1.png" alt=""><span class="bebidas__nombre">Romantico</span><span class="bebidas__precio">$ 149</span><a href="" class="bebidas__link"><span class="bebidas__link">Ver Producto</span></a></li>
-            <li class="bebidas__item"><img class="bebidas__img" src="img/bebida2.png" alt=""><span class="bebidas__nombre">Casero</span><span class="bebidas__precio">$ 119</span><a href="" class="bebidas__link"><span class="bebidas__link">Ver Producto</span></a></li>
-            <li class="bebidas__item"><img class="bebidas__img" src="img/bebida4.png" alt=""><span class="bebidas__nombre">Espumoso</span><span class="bebidas__precio">$ 139</span><a href="" class="bebidas__link"><span class="bebidas__link">Ver Producto</span></a></li>
-            <li class="bebidas__item"><img class="bebidas__img" src="img/bebida5.png" alt=""><span class="bebidas__nombre">Bombastico</span><span class="bebidas__precio">$ 119</span><a href="" class="bebidas__link"><span class="bebidas__link">Ver Producto</span></a></li>
-            <li class="bebidas__item"><img class="bebidas__img" src="img/bebida6.png" alt=""><span class="bebidas__nombre">Chokoloko</span><span class="bebidas__precio">$ 199</span><a href="" class="bebidas__link"><span class="bebidas__link">Ver Producto</span></a></li>
-        </ul>
-    </div>
-    </section>
-    <section class="variedad">
-        <div class="bebidas__contenedor">
-        <span class="variedad__titulo titulo">Variedad</span>
-        <ul class="variedad__lista">
-            <li class="variedad__item"><img class="variedad__img" src="img/choko1.png" alt=""><span class="variedad__nombre">Chocolates</span><span class="variedad__precio">$ 129</span><a href=""><span class="variedad__link">Ver Producto</span></a></li>
-            <li class="variedad__item"><img class="variedad__img" src="img/choko2.png" alt=""><span class="variedad__nombre">Donas</span><span class="variedad__precio">$ 149</span><a href=""><span class="variedad__link">Ver Producto</span></a></li>
-            <li class="variedad__item"><img class="variedad__img" src="img/choko3.png" alt=""><span class="variedad__nombre">Galletas</span><span class="variedad__precio">$ 119</span><a href=""><span class="variedad__link">Ver Producto</span></a></li>
-            <li class="variedad__item"><img class="variedad__img" src="img/choko4.png" alt=""><span class="variedad__nombre">Trufas</span><span class="variedad__precio">$ 139</span><a href=""><span class="variedad__link">Ver Producto</span></a></li>
-            <li class="variedad__item"><img class="variedad__img" src="img/choko5.png" alt=""><span class="variedad__nombre">Cupcakes</span><span class="variedad__precio">$ 119</span><a href=""><span class="variedad__link">Ver Producto</span></a></li>
-            <li class="variedad__item"><img class="variedad__img" src="img/choko6.png" alt=""><span class="variedad__nombre">Tartas</span><span class="bebidas__precio">$ 199</span><a href=""><span class="variedad__link">Ver Producto</span></a></li>
-        </ul>
-    </div>
-    </section>
-    </main>
-</body>
+        </header>
+        <main class="main">
+            <section class="banner">
+                <img
+                    src="img/banner.jpg"
+                    alt="imagen de portada"
+                    class="banner__img"
+                />
+                <div class="banner__contenedor">
+                    <h2 class="banner__titulo">Diciembre promocionales</h2>
+                    <h3 class="banner__subtitulo">
+                        Productos selecionados con 33% de descuento
+                    </h3>
+                    <a href="#" class="banner__link">
+                        <span class="banner__boton">Chocolates</span>
+                    </a>
+                </div>
+            </section>
+            <section class="pastel">
+                <div class="pastel__contenedor">
+                    <span class="pastel__titulo titulo">Pasteles</span>
+                    <ul class="pastel__lista">
+                        <li class="pastel__item">
+                            <img
+                                class="pastel__img"
+                                src="img/pastel0.png"
+                                alt=""
+                            /><span class="pastel__nombre">Chokomilk</span
+                            ><span class="pastel__precio">$ 429</span
+                            ><a href="" class="pastel__link"
+                                ><span class="pastel__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="pastel__item">
+                            <img
+                                class="pastel__img"
+                                src="img/pastel1.png"
+                                alt=""
+                            /><span class="pastel__nombre">Dulcinea</span
+                            ><span class="pastel__precio">$ 349</span
+                            ><a href="" class="pastel__link"
+                                ><span class="pastel__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="pastel__item">
+                            <img
+                                class="pastel__img"
+                                src="img/pastel2.png"
+                                alt=""
+                            /><span class="pastel__nombre">Mamma mia</span
+                            ><span class="pastel__precio">$ 499</span
+                            ><a href="" class="pastel__link"
+                                ><span class="pastel__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="pastel__item">
+                            <img
+                                class="pastel__img"
+                                src="img/pastel3.png"
+                                alt=""
+                            /><span class="pastel__nombre">Yabai</span
+                            ><span class="pastel__precio">$ 599</span
+                            ><a href="" class="pastel__link"
+                                ><span class="pastel__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="pastel__item">
+                            <img
+                                class="pastel__img"
+                                src="img/pastel4.png"
+                                alt=""
+                            /><span class="pastel__nombre">Amargo</span
+                            ><span class="pastel__precio">$ 399</span
+                            ><a href="" class="pastel__link"
+                                ><span class="pastel__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="pastel__item">
+                            <img
+                                class="pastel__img"
+                                src="img/pastel5.png"
+                                alt=""
+                            /><span class="pastel__nombre">Delicious</span
+                            ><span class="pastel__precio">$ 459</span
+                            ><a href="" class="pastel__link"
+                                ><span class="pastel__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="bebidas">
+                <div class="bebidas__contenedor">
+                    <span class="bebidas__titulo titulo">Bebidas</span>
+                    <ul class="bebidas__lista">
+                        <li class="bebidas__item">
+                            <img
+                                class="bebidas__img"
+                                src="img/bebida3.png"
+                                alt=""
+                            /><span class="bebidas__nombre">Chokokoa</span
+                            ><span class="bebidas__precio">$ 129</span
+                            ><a href="" class="pastel__link"
+                                ><span class="bebidas__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="bebidas__item">
+                            <img
+                                class="bebidas__img"
+                                src="img/bebida1.png"
+                                alt=""
+                            /><span class="bebidas__nombre">Romantico</span
+                            ><span class="bebidas__precio">$ 149</span
+                            ><a href="" class="bebidas__link"
+                                ><span class="bebidas__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="bebidas__item">
+                            <img
+                                class="bebidas__img"
+                                src="img/bebida2.png"
+                                alt=""
+                            /><span class="bebidas__nombre">Casero</span
+                            ><span class="bebidas__precio">$ 119</span
+                            ><a href="" class="bebidas__link"
+                                ><span class="bebidas__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="bebidas__item">
+                            <img
+                                class="bebidas__img"
+                                src="img/bebida4.png"
+                                alt=""
+                            /><span class="bebidas__nombre">Espumoso</span
+                            ><span class="bebidas__precio">$ 139</span
+                            ><a href="" class="bebidas__link"
+                                ><span class="bebidas__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="bebidas__item">
+                            <img
+                                class="bebidas__img"
+                                src="img/bebida5.png"
+                                alt=""
+                            /><span class="bebidas__nombre">Bombastico</span
+                            ><span class="bebidas__precio">$ 119</span
+                            ><a href="" class="bebidas__link"
+                                ><span class="bebidas__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="bebidas__item">
+                            <img
+                                class="bebidas__img"
+                                src="img/bebida6.png"
+                                alt=""
+                            /><span class="bebidas__nombre">Chokoloko</span
+                            ><span class="bebidas__precio">$ 199</span
+                            ><a href="" class="bebidas__link"
+                                ><span class="bebidas__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="variedad">
+                <div class="bebidas__contenedor">
+                    <span class="variedad__titulo titulo">Variedad</span>
+                    <ul class="variedad__lista">
+                        <li class="variedad__item">
+                            <img
+                                class="variedad__img"
+                                src="img/choko1.png"
+                                alt=""
+                            /><span class="variedad__nombre">Chocolates</span
+                            ><span class="variedad__precio">$ 299</span
+                            ><a href=""
+                                ><span class="variedad__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="variedad__item">
+                            <img
+                                class="variedad__img"
+                                src="img/choko2.png"
+                                alt=""
+                            /><span class="variedad__nombre">Donas</span
+                            ><span class="variedad__precio">$ 349</span
+                            ><a href=""
+                                ><span class="variedad__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="variedad__item">
+                            <img
+                                class="variedad__img"
+                                src="img/choko3.png"
+                                alt=""
+                            /><span class="variedad__nombre">Galletas</span
+                            ><span class="variedad__precio">$ 129</span
+                            ><a href=""
+                                ><span class="variedad__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="variedad__item">
+                            <img
+                                class="variedad__img"
+                                src="img/choko4.png"
+                                alt=""
+                            /><span class="variedad__nombre">Trufas</span
+                            ><span class="variedad__precio">$ 239</span
+                            ><a href=""
+                                ><span class="variedad__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="variedad__item">
+                            <img
+                                class="variedad__img"
+                                src="img/choko5.png"
+                                alt=""
+                            /><span class="variedad__nombre">Cupcakes</span
+                            ><span class="variedad__precio">$ 79</span
+                            ><a href=""
+                                ><span class="variedad__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                        <li class="variedad__item">
+                            <img
+                                class="variedad__img"
+                                src="img/choko6.png"
+                                alt=""
+                            /><span class="variedad__nombre">Tartas</span
+                            ><span class="bebidas__precio">$ 149</span
+                            ><a href=""
+                                ><span class="variedad__link"
+                                    >Ver Producto</span
+                                ></a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__contenedor">
+                <div class="footer__logo">
+                    <img
+                        src="img/Logo.png"
+                        alt="Logo chokoreto"
+                        class="comercio__logo"
+                    />
+                </div>
+                <div class="contacto">
+                    <ul class="contacto__lista">
+                        <li class="contacto__item">
+                            <a href="#" class="contacto__link">Quienes somos</a>
+                        </li>
+                        <li class="contacto__item">
+                            <a href="#" class="contacto__link"
+                                >Politicas de privacidad</a
+                            >
+                        </li>
+                        <li class="contacto__item">
+                            <a href="#" class="contacto__link"
+                                >Programa de fidelidad</a
+                            >
+                        </li>
+                        <li class="contacto__item">
+                            <a href="#" class="contacto__link"
+                                >Nuestras tiendas</a
+                            >
+                        </li>
+                        <li class="contacto__item">
+                            <a href="#" class="contacto__link"
+                                >Quiero ser franquiciado</a
+                            >
+                        </li>
+                        <li class="contacto__item">
+                            <a href="#" class="contacto__link">Anuncie aquí</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="formulario">
+                    <form action="" class="formulario__contenedor">
+                        <span class="formulario__titulo"
+                            >Hable con nosotros</span
+                        >
+                        <input
+                            type="text"
+                            class="formulario__nombre"
+                            placeholder="Nombre"
+                            required
+                        />
+                        <textarea
+                            name=""
+                            id=""
+                            cols="30"
+                            rows="10"
+                            class="formulario__textarea"
+                            placeholder="Mensaje"
+                            required
+                        ></textarea>
+                        <button type="submit" class="formulario__boton">
+                            Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__dev">
+                <span class="footer__dev-texto">
+                    <a href="https://moisespmx.github.io/portafolio/">
+                        Desarrollado por Moisés Pérez <br />
+                        2023
+                    </a>
+                </span>
+            </div>
+        </footer>
+    </body>
 </html>

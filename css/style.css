@@ -17,6 +17,8 @@
     --color_producto: #dda15e;
     --boxshadow_hover: #a7c957;
     --boxshadow_normal: #5f3815;
+    --color_footer: #ccd5ae;
+    --color_boton-enviar: #0081a7;
 }
 
 body {

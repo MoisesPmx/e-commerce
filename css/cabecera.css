@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
 }
-.cabecera__logo{
+.comercio__logo{
     background-color: var(--color_bkg-logo);
     padding: 0 15px 0 15px;
     border-radius: 20px;
