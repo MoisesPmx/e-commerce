@@ -1,19 +1,19 @@
-.bebidas {
+.variedad {
     padding: 40px 0 20px;
     width: 100%;
-    background-color: var(--color_bkg-bebidas);
+    background-color: var(--color_bkg-variedad);
 }
-.bebidas__contenedor {
+.variedad__contenedor {
     display: flex;
     flex-direction: column;
     padding: 0 10% 0 10%;
 }
-.bebidas__lista {
+.variedad__lista {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.bebidas__item {
+.variedad__item {
     width: 150px;
     background-color: var(--color_bkg-card);
     padding: 10px;
@@ -26,21 +26,21 @@
     box-shadow: 7px 7px 2px var(--boxshadow_normal);
     transition: .4s all;
 }
-.bebidas__item:hover{
+.variedad__item:hover{    
     box-shadow: 7px 7px 14px var(--boxshadow_hover);
 }
-.bebidas__img {
+.variedad__img {
     border-radius: 15px;
 }
-.bebidas__nombre {
+.variedad__nombre {
     font-weight: 600;
     font-size: 0.9rem;
 }
-.bebidas__precio {
+.variedad__precio {
     font-weight: 600;
     font-size: 1rem;
 }
-.bebidas__link {
+.variedad__link {
     color: var(--color_producto);
     font-weight: 500;
     font-size: 1rem;

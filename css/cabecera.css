@@ -1,42 +1,47 @@
-.cabecera{
+.cabecera {
     padding: 0 10% 0 10%;
     background-color: var(--color_cabecera);
     height: 60px;
     display: flex;
     align-items: center;
 }
-.cabecera__contenedor{
-    width: 100%;
-    display: flex;    
-    justify-content: space-between;
-    align-items: center;    
+.cabecera__logo{
+    background-color: var(--color_bkg-logo);
+    padding: 0 15px 0 15px;
+    border-radius: 20px;
 }
-.cabecera__contenedorb{
+.cabecera__contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecera__contenedorb {
     width: 100%;
     display: flex;
 }
-.cabecera__buscar{
+.cabecera__buscar {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
-.cabecera__input::placeholder{
+.cabecera__input::placeholder {
     color: var(--color_buscar-texto);
 }
-.cabecera__input{     
+.cabecera__input {
     padding: 0 0 0 25px;
     outline: none;
     width: 35%;
     height: 35px;
     border: none;
     border-radius: 50px;
-    font-size: 1rem;   
-    background-color: var(--color_buscar-bkg);      
+    font-size: 1rem;
+    background-color: var(--color_buscar-bkg);
 }
 
-.cabecera__icono{
+.cabecera__icono {
     width: 20px;
     position: absolute;
     display: block;
@@ -46,14 +51,14 @@
     top: 50%;
     right: 32%;
     transform: translateY(-50%);
-    transition: .5s;
+    transition: 0.5s;
     text-align: center;
 }
 .cabecera__icono i {
-	color: var(--color_buscar-icono);	
-	transition: all .7s ease;
+    color: var(--color_buscar-icono);
+    transition: all 0.7s ease;
 }
-.cabecera__login{
+.cabecera__login {
     width: 120px;
     height: 40px;
     background-color: var(--color_boton-login);
