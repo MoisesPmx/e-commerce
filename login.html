@@ -18,11 +18,8 @@
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/cabecera.css" />
-        <link rel="stylesheet" href="css/banner.css" />
-        <link rel="stylesheet" href="css/pasteles.css" />
-        <link rel="stylesheet" href="css/bebidas.css" />
-        <link rel="stylesheet" href="css/variedad.css" />
         <link rel="stylesheet" href="css/footer.css" />
+        <link rel="stylesheet" href="css/login.css" />
     </head>
     <body>
         <header class="cabecera">
@@ -49,15 +46,31 @@
                 </div>
             </div>
         </header>
+
         <main class="main">
             <section class="login">
                 <form action="" class="login__contenedor">
-                    <input type="text" class="login__usuario" placeholder="Correo electrónico" required>
-                    <input type="text" class="login__password" placeholder="Contraseña" required>
+                    <span class="login__titulo titulo">Inicio de Sesión</span>
+
+                    <input
+                        type="email"
+                        class="login__usuario input"
+                        placeholder="Correo electrónico"
+                        required
+                    />
+
+                    <input
+                        type="password"
+                        class="login__password input"
+                        placeholder="Contraseña"
+                        required
+                    />
+
                     <button type="submit" class="login__boton">Entrar</button>
                 </form>
             </section>
         </main>
+
         <footer class="footer">
             <div class="footer__contenedor">
                 <div class="footer__logo">
@@ -109,8 +122,8 @@
                             required
                         />
                         <textarea
-                            name=""
-                            id=""
+                            name="mensaje"
+                            id="mensaje"
                             cols="30"
                             rows="10"
                             class="formulario__textarea"

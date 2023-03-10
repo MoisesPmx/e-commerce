@@ -1,7 +1,7 @@
 .bebidas {
     padding: 40px 0 20px;
     width: 100%;
-    background-color: var(--color_bkg-bebidas);
+    background-color: var(--color_bkg);
 }
 .bebidas__contenedor {
     display: flex;
