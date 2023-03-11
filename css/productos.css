@@ -71,6 +71,14 @@ main{
     }
     .producto__item{
         width: 40%;
-
+    }
+    .producto__nombre{
+        font-size: 1.4rem;
+    }
+    .producto__precio{
+        font-size: 1.3rem;
+    }
+    .producto__link{
+        font-size: 1.2rem;
     }
 }
