@@ -34,3 +34,29 @@ display: flex;
     border-radius: 10px;
     border: none;
 }
+
+@media screen and (max-width: 1007px) {
+    .banner__contenedor{
+        padding-left: 3%;
+        top: 32vw;
+    }
+    .banner__img{
+        height: 25vh;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .banner__img{
+        height: 30vh;
+    }
+    .banner__contenedor{
+        top: 60vw;
+    }
+    .banner__titulo{
+        font-size: 1.6rem;
+    }
+    .banner__subtitulo{
+        font-size: .8rem;
+    }    
+}

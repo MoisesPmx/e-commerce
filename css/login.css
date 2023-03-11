@@ -56,3 +56,14 @@ main {
     color: var(--color_boton-fuente);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1007px) {
+    
+    .login__contenedor{
+        width: 80%;        
+    }
+}
+
+@media screen and (max-width: 640px) {    
+    
+}

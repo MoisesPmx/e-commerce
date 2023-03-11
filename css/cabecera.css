@@ -1,7 +1,7 @@
 .cabecera {
     padding: 0 10% 0 10%;
     background-color: var(--color_cabecera);
-    height: 60px;
+    height: 5rem;
     display: flex;
     align-items: center;
 }
@@ -54,10 +54,6 @@
     transition: 0.5s;
     text-align: center;
 }
-.cabecera__icono i {
-    color: var(--color_buscar-icono);
-    transition: all 0.7s ease;
-}
 .cabecera__login {
     width: 120px;
     height: 40px;
@@ -70,4 +66,29 @@
     font-weight: 600;
     border-radius: 10px;
     border: none;
+}
+
+@media screen and (max-width: 1007px) {
+    .cabecera{
+        padding: 0 3% 0 3%;
+    }
+    .cabecera__input{
+        width: 70%;        
+    }
+    .cabecera__icono{
+        right: 16%;        
+    }  
+}
+
+@media screen and (max-width: 640px) {
+    .cabecera__contenedorb{
+        flex-direction: row-reverse;
+    }
+    .cabecera{
+        display: flex;
+        justify-content: space-between;
+    }
+    .comercio__logo{
+        width: 40%;
+    }
 }
