@@ -1,0 +1,45 @@
+.descripcion{
+    background-color: var(--color_bkg);
+    display: flex;
+    justify-content: space-around;
+}
+.descripcion__contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding: 3% 30% 25px 10%;
+    
+}
+.descripcion__uno{
+    width: 100%;
+    box-shadow: 7px 7px 4px var(--boxshadow_normal); 
+    border-radius: 20px 0 0 20px;    
+}
+.descripcion__img{
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+}
+.descripcion__dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--color_bkg-card);
+    height: 400px ;
+    box-shadow: 7px 7px 4px var(--boxshadow_normal); 
+    border-radius: 0 20px 20px 0;
+}
+.descripcion__item{
+    padding: 0 2rem 0 2rem;
+}
+.descripcion__nombre{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+.descripcion__precio{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.descripcion__texto{
+    font-size: 1rem;
+    font-weight: 500;
+}

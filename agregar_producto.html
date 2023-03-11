@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/cabecera.css" />
         <link rel="stylesheet" href="css/footer.css" />
-        <link rel="stylesheet" href="css/login.css" />
+        <link rel="stylesheet" href="css/agregar.css" />
     </head>
     <body>
         <header class="cabecera">
@@ -48,25 +48,45 @@
         </header>
 
         <main class="main">
-            <section class="login">
-                <form action="" class="login__contenedor">
-                    <span class="login__titulo titulo">Inicio de Sesión</span>
+            <section class="producto">
+                <form action="" class="producto__contenedor">
+                    <span class="producto__titulo titulo"
+                        >Agregar nuevo producto</span
+                    >
 
                     <input
-                        type="email"
-                        class="login__usuario input"
-                        placeholder="Correo electrónico"
+                        type="text"
+                        class="producto__subir input"
+                        placeholder="URL de la imagen"
                         required
                     />
 
                     <input
-                        type="password"
-                        class="login__password input"
-                        placeholder="Contraseña"
+                        type="texto"
+                        class="producto__nombre input"
+                        placeholder="Nombre"
                         required
                     />
 
-                    <button type="submit" class="login__boton">Entrar</button>
+                    <input
+                        type="number"
+                        class="producto__precio input"
+                        placeholder="Precio $"
+                        required
+                    />
+
+                    <textarea
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="10"
+                        class="producto__descripcion input"
+                        placeholder="Descripción del producto"
+                    ></textarea>
+
+                    <button type="submit" class="producto__boton">
+                        Agregar producto
+                    </button>
                 </form>
             </section>
         </main>

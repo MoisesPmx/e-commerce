@@ -1,8 +1,9 @@
 .banner {
-    width: 100%;
+display: flex;    
 }
 .banner__img {
     width: 100%;
+    
 }
 .banner__contenedor {
     position: absolute;
