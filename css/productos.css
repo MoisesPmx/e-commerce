@@ -12,8 +12,7 @@ main{
     flex-direction: column;
     padding: 0 10% 0 10%;
 }
-.producto__lista {
-    box-sizing: border-box;
+.producto__lista {    
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;    
@@ -39,7 +38,7 @@ main{
 }
 .producto__nombre {
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 .producto__precio {
     font-weight: 600;
@@ -63,6 +62,15 @@ main{
     .producto__item:hover{
         box-shadow: 7px 7px 2px var(--boxshadow_normal);
     }
+    .producto__nombre{
+        font-size: 1.2rem;
+    }
+    .producto__precio{
+        font-size: 1.3rem;
+    }
+    .producto__link{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -75,13 +83,5 @@ main{
     .producto__item{
         width: 40%;
     }
-    .producto__nombre{
-        font-size: 1.2rem;
-    }
-    .producto__precio{
-        font-size: 1.3rem;
-    }
-    .producto__link{
-        font-size: 1rem;
-    }
+    
 }

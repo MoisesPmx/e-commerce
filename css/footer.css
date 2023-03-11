@@ -121,6 +121,7 @@
     }
     .contacto__lista{
         justify-content: space-around;
+        font-size: 1rem;
     }
 }
 
@@ -150,5 +151,7 @@
     .formulario__contenedor{
         width: 100%;        
     }
-    
+    .contacto__lista{
+        text-align: center;
+    }
 }
