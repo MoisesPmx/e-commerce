@@ -60,6 +60,9 @@ main{
     .producto__lista{
         justify-content: center;        
     }
+    .producto__item:hover{
+        box-shadow: 7px 7px 2px var(--boxshadow_normal);
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -73,12 +76,12 @@ main{
         width: 40%;
     }
     .producto__nombre{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .producto__precio{
         font-size: 1.3rem;
     }
     .producto__link{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }

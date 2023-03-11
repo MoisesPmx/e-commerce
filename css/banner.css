@@ -37,7 +37,7 @@ display: flex;
 
 @media screen and (max-width: 1007px) {
     .banner__contenedor{
-        padding-left: 3%;
+        padding-left: 5%;
         top: 32vw;
     }
     .banner__img{

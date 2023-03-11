@@ -43,6 +43,10 @@
     font-weight: 500;
 }
 @media screen and (max-width: 1007px) {
+.descripcion__contenedor{
+    width: 100%;
+    padding: 3% 3% 25px 3%;
+    }
 }
 
 @media screen and (max-width: 640px) {

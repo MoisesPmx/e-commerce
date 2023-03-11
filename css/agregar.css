@@ -60,3 +60,17 @@ main {
     color: var(--color_boton-fuente);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1008px) {
+    .producto{
+                width: 100%;
+        
+    }
+    .producto__contenedor{
+        width: 80%;
+        
+    }
+}
+@media screen and (max-width: 640px) {
+ 
+}
