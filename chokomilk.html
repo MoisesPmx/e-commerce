@@ -48,23 +48,7 @@
                 </div>
             </div>
         </header>
-        <main class="main">
-            <section class="banner">
-                <img
-                    src="img/banner.jpg"
-                    alt="imagen de portada"
-                    class="banner__img"
-                />
-                <div class="banner__contenedor">
-                    <h2 class="banner__titulo">Regala algo delicioso</h2>
-                    <h3 class="banner__subtitulo">
-                        Productos selecionados con 33% de descuento
-                    </h3>
-                    <a href="todo.html" class="banner__link">
-                        <span class="banner__boton">Lo quiero!</span>
-                    </a>
-                </div>
-            </section>
+        <main class="main">            
 
             <section class="descripcion">
                 <div class="descripcion__contenedor">
@@ -379,6 +363,7 @@
                             class="formulario__nombre"
                             placeholder="Nombre"
                             required
+                            maxlength="40"
                         />
                         <textarea
                             name=""
@@ -388,6 +373,7 @@
                             class="formulario__textarea"
                             placeholder="Mensaje"
                             required
+                            maxlength="120"
                         ></textarea>
                         <button type="submit" class="formulario__boton">
                             Enviar mensaje

@@ -65,7 +65,7 @@
     font-size: 1rem;
     font-weight: 600;
     border-radius: 10px;
-    border: none;
+    border: none;    
 }
 
 @media screen and (max-width: 1007px) {
@@ -84,15 +84,46 @@
     .cabecera__login{
         width: 90px;
         margin-left: 15px;
+        
     }
     .cabecera__contenedorb{
         flex-direction: row-reverse;
+        
     }
     .cabecera{
         display: flex;
         justify-content: space-between;
+        position: relative;
     }
     .comercio__logo{
         width: 40%;
     }
+
+    .cabecera__buscar{
+        position: relative;
+        justify-content: flex-end;
+        padding-right: 15px;     
+    }
+    .cabecera__input{
+        width: 0;
+        transition: all .7s ease;
+        box-sizing: border-box;
+    }
+    .cabecera__icono{
+        position: absolute;
+        cursor: pointer;
+        transition: .5s;
+        right: 10%;        
+        top: 50%;
+    }
+    .cabecera__icono i {
+        transition: all .7s ease;
+    }
+    .cabecera__buscar:hover .cabecera__input {
+        width: 150px;
+    }
+    .cabecera__buscar:hover i {
+        transform: rotate(-360deg);
+    }
+    
 }

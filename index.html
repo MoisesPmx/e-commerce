@@ -32,7 +32,7 @@
                 />
                 <div class="cabecera__contenedorb">
                     <div class="cabecera__buscar">
-                        <input
+                        <input                            
                             class="cabecera__input"
                             type="search"
                             placeholder="Buscar"
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <a href="login.html">
-                        <span class="cabecera__login">Login</span>
+                        <span class="cabecera__login" id="boton__login">Login</span>
                     </a>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     <h3 class="banner__subtitulo">
                         Productos selecionados con 33% de descuento
                     </h3>
-                    <a href="todo.html" class="banner__link">
+                    <a href="#variedad" class="banner__link">
                         <span class="banner__boton">Lo quiero!</span>
                     </a>
                 </div>
@@ -234,7 +234,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="producto">
+            <section class="producto" id="variedad">
                 <div class="producto__contenedor">
                     <span class="producto__titulo titulo">Variedad</span>
                     <ul class="producto__lista">
@@ -375,15 +375,17 @@
                             class="formulario__nombre"
                             placeholder="Nombre"
                             required
+                            maxlength="40"
                         />
                         <textarea
-                            name=""
-                            id=""
+                            name="textarea"
+                            id="textarea"
                             cols="30"
                             rows="10"
                             class="formulario__textarea"
                             placeholder="Mensaje"
                             required
+                            maxlength="120"
                         ></textarea>
                         <button type="submit" class="formulario__boton">
                             Enviar mensaje
@@ -400,5 +402,6 @@
                 </span>
             </div>
         </footer>
+        <script src=""></script>
     </body>
 </html>
