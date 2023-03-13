@@ -25,6 +25,5 @@ body {
 .titulo {
     color: var(--color_titulo);
     font-size: 1.75rem;
-    font-weight: 700;
-    padding-bottom: 20px;
+    font-weight: 700;    
 }

@@ -7,6 +7,13 @@ main{
     width: 100%;
     background-color: var(--color_bkg);
 }
+.producto__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
 .producto__contenedor {
     display: flex;
     flex-direction: column;
@@ -49,7 +56,32 @@ main{
     font-weight: 500;
     font-size: 1rem;
 }
+.producto__todolink{
+    color: var(--color_bkg-card);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.agregarProducto__boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color_boton-enviar);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color_boton-fuente);  
+    cursor: pointer;  
+}
 @media screen and (max-width: 1007px) {    
+    .titulo{
+        padding-left: 2%;
+    }
+    .producto__todolink{
+        padding-right: 2%;
+    }
     .producto__contenedor{
         padding: 0 3% 0 3%;
     }   
@@ -76,6 +108,9 @@ main{
 @media screen and (max-width: 640px) {
     .titulo{
         padding-left: 3%;
+    }
+    .producto__todolink{
+        padding-right: 3%;
     }
     .producto__lista{
         gap: 13px;
