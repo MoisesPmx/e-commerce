@@ -1,5 +1,4 @@
-main{
-    padding-bottom: 80px;
+main{    
     background-color: var(--color_bkg);
 }
 .producto {    
@@ -22,7 +21,8 @@ main{
 .producto__lista {    
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
 }
 .producto__item {
     width: 150px;
@@ -106,8 +106,14 @@ main{
 }
 
 @media screen and (max-width: 640px) {
+    .producto__header-agregar{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }  
     .titulo{
-        padding-left: 3%;
+        padding-left: 0;        
+        padding-bottom: 15px;
     }
     .producto__todolink{
         padding-right: 3%;
