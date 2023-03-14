@@ -84,6 +84,9 @@
         width: 90px;
         margin-left: 15px;
     }
+    .cabecera__login-contenedor{
+        padding-right: 20px;
+    }
     .cabecera__contenedorb {
         flex-direction: row-reverse;
         width: 50%;
@@ -99,8 +102,7 @@
 
     .cabecera__buscar {
         position: relative;
-        justify-content: flex-end;
-        padding-right: 15px;
+        justify-content: flex-end;        
         width: 25%;
     }
     .cabecera__input {
@@ -116,15 +118,15 @@
         right: 10%;
         top: 50%;
         padding: 0px;
-        background-color: var(--color_buscar-icono);
+        
         width: 68%;
         height: 100%;
-        color: var(--color_buscar-bkg);
+        
     }
     .cabecera__icono i {
         transition: all 0.7s ease;
         top: 29%;
-        right: 32%;
+        right: 35%;
         position: absolute;
     }
     .cabecera__buscar:hover .cabecera__input {
