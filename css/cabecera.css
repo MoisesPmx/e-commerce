@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
 }
-.comercio__logo{
+.comercio__logo {
     background-color: var(--color_bkg-logo);
     padding: 0 15px 0 15px;
     border-radius: 20px;
@@ -64,65 +64,74 @@
     font-size: 1rem;
     font-weight: 600;
     border-radius: 10px;
-    border: none;    
+    border: none;
 }
 
 @media screen and (max-width: 1007px) {
-    .cabecera{
+    .cabecera {
         padding: 0 3% 0 3%;
     }
-    .cabecera__input{
-        width: 70%;        
+    .cabecera__input {
+        width: 70%;
     }
-    .cabecera__icono{
-        right: 16%;        
-    }  
+    .cabecera__icono {
+        right: 16%;
+    }
 }
 
 @media screen and (max-width: 640px) {
-    .cabecera__login{
+    .cabecera__login {
         width: 90px;
         margin-left: 15px;
-        
     }
-    .cabecera__contenedorb{
+    .cabecera__contenedorb {
         flex-direction: row-reverse;
-        
+        width: 50%;
     }
-    .cabecera{
+    .cabecera {
         display: flex;
         justify-content: space-between;
         position: relative;
     }
-    .comercio__logo{
-        width: 40%;
+    .comercio__logo {
+        width: 80%;
     }
 
-    .cabecera__buscar{
+    .cabecera__buscar {
         position: relative;
         justify-content: flex-end;
-        padding-right: 15px;     
+        padding-right: 15px;
+        width: 25%;
     }
-    .cabecera__input{
+    .cabecera__input {
         width: 0;
-        transition: all .7s ease;
+        transition: all 0.7s ease;
         box-sizing: border-box;
+        padding: 0;
     }
-    .cabecera__icono{
+    .cabecera__icono {
         position: absolute;
         cursor: pointer;
-        transition: .5s;
-        right: 10%;        
+        transition: 0.5s;
+        right: 10%;
         top: 50%;
+        padding: 0px;
+        background-color: var(--color_buscar-icono);
+        width: 68%;
+        height: 100%;
+        color: var(--color_buscar-bkg);
     }
     .cabecera__icono i {
-        transition: all .7s ease;
+        transition: all 0.7s ease;
+        top: 29%;
+        right: 32%;
+        position: absolute;
     }
     .cabecera__buscar:hover .cabecera__input {
-        width: 150px;
+        width: 250px;
+        padding-left: 25px;
     }
     .cabecera__buscar:hover i {
         transform: rotate(-360deg);
     }
-    
 }

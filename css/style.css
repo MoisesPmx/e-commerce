@@ -27,3 +27,14 @@ body {
     font-size: 1.75rem;
     font-weight: 700;    
 }
+.logo__contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 640px) {
+    .logo__contenedor{
+        padding-left: 3%;        
+    }
+}
