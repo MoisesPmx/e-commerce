@@ -22,11 +22,13 @@
     <body>
         <header class="cabecera">
             <div class="cabecera__contenedor">
+                <a href="index.html">
                 <img
                     src="img/Logo.png"
                     alt="Logo de la tienda"
                     class="comercio__logo"
                 />
+                </a>
                 <div class="cabecera__contenedorb">
                     <div class="cabecera__buscar">
                         <input
@@ -295,11 +297,13 @@
             <div class="footer__contenedor">
                 <div class="footer__contenedorb">
                     <div class="footer__logo">
+                        <a href="index.html">
                         <img
                             src="img/Logo.png"
                             alt="Logo chokoreto"
                             class="footer__img"
                         />
+                        </a>
                     </div>
                     <div class="contacto">
                         <ul class="contacto__lista">
@@ -346,7 +350,7 @@
                             type="text"
                             class="formulario__nombre"
                             placeholder="Nombre"
-                            required                            
+                            required
                             maxlength="40"
                             title="Este campo no puede ir vacío (max 40 carácteres)"
                         />
@@ -361,7 +365,11 @@
                             maxlength="120"
                             title="Este campo no puede ir vacío (max 120 carácteres)"
                         ></textarea>
-                        <button type="submit" class="formulario__boton" onclick="validar()">
+                        <button
+                            id="formulario__boton"
+                            type="submit"
+                            class="formulario__boton"
+                        >
                             Enviar mensaje
                         </button>
                     </form>
@@ -376,5 +384,6 @@
                 </span>
             </div>
         </footer>
+        <script type="module" src="js/mensaje.js"></script>
     </body>
 </html>

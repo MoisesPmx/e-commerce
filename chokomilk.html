@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tienda Online</title>
-        <script src="https://kit.fontawesome.com/11cc40342e.js" crossorigin="anonymous"></script>
+        <script
+            src="https://kit.fontawesome.com/11cc40342e.js"
+            crossorigin="anonymous"
+        ></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -23,11 +26,12 @@
     <body>
         <header class="cabecera">
             <div class="cabecera__contenedor">
-                <img
-                    src="img/Logo.png"
-                    alt="Logo de la tienda"
-                    class="comercio__logo"
-                />
+                <a href="index.html">
+                    <img
+                        src="img/Logo.png"
+                        alt="Logo de la tienda"
+                        class="comercio__logo"
+                /></a>
                 <div class="cabecera__contenedorb">
                     <div class="cabecera__buscar">
                         <input
@@ -45,8 +49,7 @@
                 </div>
             </div>
         </header>
-        <main class="main">            
-
+        <main class="main">
             <section class="descripcion">
                 <div class="descripcion__contenedor">
                     <div class="descripcion__uno">
@@ -309,11 +312,13 @@
             <div class="footer__contenedor">
                 <div class="footer__contenedorb">
                     <div class="footer__logo">
-                        <img
-                            src="img/Logo.png"
-                            alt="Logo chokoreto"
-                            class="footer__img"
-                        />
+                        <a href="index.html">
+                            <img
+                                src="img/Logo.png"
+                                alt="Logo chokoreto"
+                                class="footer__img"
+                            />
+                        </a>
                     </div>
                     <div class="contacto">
                         <ul class="contacto__lista">
@@ -360,7 +365,7 @@
                             type="text"
                             class="formulario__nombre"
                             placeholder="Nombre"
-                            required                            
+                            required
                             maxlength="40"
                             title="Este campo no puede ir vacío (max 40 carácteres)"
                         />
@@ -375,7 +380,11 @@
                             maxlength="120"
                             title="Este campo no puede ir vacío (max 120 carácteres)"
                         ></textarea>
-                        <button type="submit" class="formulario__boton" onclick="validar()">
+                        <button
+                            id="formulario__boton"
+                            type="submit"
+                            class="formulario__boton"
+                        >
                             Enviar mensaje
                         </button>
                     </form>
@@ -390,5 +399,6 @@
                 </span>
             </div>
         </footer>
+        <script type="module" src="js/mensaje.js"></script>
     </body>
 </html>
