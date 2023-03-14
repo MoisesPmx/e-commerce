@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tienda Online</title>
-        <script src="https://kit.fontawesome.com/11cc40342e.js" crossorigin="anonymous"></script>
+        <script
+            src="https://kit.fontawesome.com/11cc40342e.js"
+            crossorigin="anonymous"
+        ></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -29,7 +32,7 @@
                 />
                 <div class="cabecera__contenedorb">
                     <div class="cabecera__buscar">
-                        <input                            
+                        <input
                             class="cabecera__input"
                             type="search"
                             placeholder="Buscar"
@@ -39,7 +42,9 @@
                         </div>
                     </div>
                     <a href="login.html">
-                        <span class="cabecera__login" id="boton__login">Login</span>
+                        <span class="cabecera__login" id="boton__login"
+                            >Login</span
+                        >
                     </a>
                 </div>
             </div>
@@ -65,8 +70,12 @@
                 <div class="producto__contenedor">
                     <div class="producto__header">
                         <span class="producto__titulo titulo">Pasteles</span>
-                        <span class="producto__todolink"><a href="todo.html">ver todo <i class="fa-solid fa-arrow-right"></i></a></span>
-                        </div>
+                        <span class="producto__todolink"
+                            ><a href="todo.html"
+                                >ver todo
+                                <i class="fa-solid fa-arrow-right"></i></a
+                        ></span>
+                    </div>
                     <ul class="producto__lista">
                         <li class="producto__item">
                             <img
@@ -153,8 +162,12 @@
                 <div class="producto__contenedor">
                     <div class="producto__header">
                         <span class="producto__titulo titulo">Bebidas</span>
-                        <span class="producto__todolink"><a href="todo.html">ver todo <i class="fa-solid fa-arrow-right"></i></a></span>
-                        </div>
+                        <span class="producto__todolink"
+                            ><a href="todo.html"
+                                >ver todo
+                                <i class="fa-solid fa-arrow-right"></i></a
+                        ></span>
+                    </div>
                     <ul class="producto__lista">
                         <li class="producto__item">
                             <img
@@ -240,8 +253,12 @@
             <section class="producto" id="variedad">
                 <div class="producto__contenedor">
                     <div class="producto__header">
-                    <span class="producto__titulo titulo">Variedad</span>
-                    <span class="producto__todolink"><a href="todo.html">ver todo <i class="fa-solid fa-arrow-right"></i></a></span>
+                        <span class="producto__titulo titulo">Variedad</span>
+                        <span class="producto__todolink"
+                            ><a href="todo.html"
+                                >ver todo
+                                <i class="fa-solid fa-arrow-right"></i></a
+                        ></span>
                     </div>
                     <ul class="producto__lista">
                         <li class="producto__item">
@@ -377,16 +394,17 @@
                             >Hable con nosotros</span
                         >
                         <input
+                            id="formulario__nombre"
                             type="text"
                             class="formulario__nombre"
                             placeholder="Nombre"
-                            required                            
+                            required
                             maxlength="40"
                             title="Este campo no puede ir vacío (max 40 carácteres)"
                         />
                         <textarea
-                            name="textarea"
-                            id="textarea"
+                            name="formulario__textarea"
+                            id="formulario__textarea"
                             cols="30"
                             rows="10"
                             class="formulario__textarea"
@@ -395,7 +413,11 @@
                             maxlength="120"
                             title="Este campo no puede ir vacío (max 120 carácteres)"
                         ></textarea>
-                        <button type="submit" class="formulario__boton">
+                        <button
+                            id="formulario__boton"
+                            type="submit"
+                            class="formulario__boton"
+                        >
                             Enviar mensaje
                         </button>
                     </form>
@@ -410,6 +432,6 @@
                 </span>
             </div>
         </footer>
-        <script src=""></script>
+        <script type="module" src="js/mensaje.js"></script>
     </body>
 </html>
