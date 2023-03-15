@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="css/cabecera.css" />
         <link rel="stylesheet" href="css/footer.css" />
         <link rel="stylesheet" href="css/agregar.css" />
+        <link rel="stylesheet" href="css/administrador.css">
     </head>
     <body>
         <header class="cabecera">
@@ -42,6 +43,9 @@
                             <i class="fa fa-search"></i>
                         </div>
                     </div>
+                    <a class="cabecera__login-admin" href="#">
+                        <span class="cabecera__admin">Menu Administrador</span>
+                    </a>
                 </div>
             </div>
         </header>
@@ -54,36 +58,47 @@
                     >
 
                     <input
+                        id="producto__imagen"
                         type="text"
-                        class="producto__subir input"
+                        class="producto__imagen input"
                         placeholder="URL de la imagen"
                         required
+                        title="Este campo no puede estar en blando ni vacío"
                     />
 
                     <input
+                        id="producto__nombre"
                         type="texto"
                         class="producto__nombre input"
                         placeholder="Nombre"
                         required
+                        maxlength="20"
+                        title="Este campo no puede estar en blando ni vacío"
                     />
 
                     <input
+                        id="producto__precio"
                         type="number"
                         class="producto__precio input"
                         placeholder="Precio $"
                         required
+                        max="4"
+                        maxlength="4"
+                        title="Este campo no puede estar en blando ni vacío"
                     />
 
                     <textarea
-                        name=""
-                        id=""
+                        name="Descripcion"
+                        id="producto__descripcion"
                         cols="30"
                         rows="10"
                         class="producto__descripcion input"
                         placeholder="Descripción del producto"
+                        maxlength="150"
+                        title="Este campo no puede estar en blando ni vacío"
                     ></textarea>
 
-                    <button type="submit" class="producto__boton">
+                    <button type="submit" class="producto__boton" id="producto__agregar">
                         Agregar producto
                     </button>
                 </form>
@@ -182,5 +197,7 @@
             </div>
         </footer>
         <script type="module" src="js/mensaje.js"></script>
+        <script type="module" src="js/agregar.js"></script>
+        <script type="module" src="js/busqueda.js"></script>
     </body>
 </html>

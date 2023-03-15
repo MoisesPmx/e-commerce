@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="css/cabecera.css" />
         <link rel="stylesheet" href="css/footer.css" />
         <link rel="stylesheet" href="css/login.css" />
+        <link rel="stylesheet" href="css/mensaje.css" />
     </head>
     <body>
         <header class="cabecera">
@@ -42,6 +43,9 @@
                             <i class="fa fa-search"></i>
                         </div>
                     </div>
+                    <a class="cabecera__login-contenedor" href="login.html">
+                        <span class="cabecera__login">Login</span>
+                    </a>
                 </div>
             </div>
         </header>
@@ -49,32 +53,14 @@
         <main class="main">
             <section class="login">
                 <form action="" class="login__contenedor">
-                    <span class="login__titulo titulo">Inicio de Sesión</span>
-
-                    <input
-                        id="usuario"
-                        type="email"
-                        class="login__usuario input"
-                        placeholder="ejemplo@mail.com"
-                        required
-                        title="Este campo no puede estar en blanco ni vacío"
-                    />
-                    <input
-                        id="contrasenia"
-                        type="password"
-                        class="login__password input"
-                        placeholder="Contraseña"
-                        required
-                        title="Este campo no puede estar en blanco ni vacío"
-                    />
-
-                    <button
-                        id="login__submit"
-                        type="submit"
-                        class="login__boton"
+                    <span class="mensaje__titulo titulo"
+                        >Producto agregado correctamente</span
                     >
-                        Entrar
-                    </button>
+                    <a href="agregar.html">
+                        <span class="cabecera__login" id="boton__login"
+                            >OK</span
+                        >
+                    </a>
                 </form>
             </section>
         </main>
@@ -171,7 +157,6 @@
             </div>
         </footer>
         <script type="module" src="js/mensaje.js"></script>
-        <script type="module" src="js/usuario.js"></script>
         <script type="module" src="js/busqueda.js"></script>
     </body>
 </html>

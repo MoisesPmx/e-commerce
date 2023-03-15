@@ -1,4 +1,5 @@
 .mensaje__titulo{
     text-align: center;
     color: var(--color_boton-login);
+    padding: 5%;
 }
