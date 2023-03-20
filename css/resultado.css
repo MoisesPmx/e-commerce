@@ -1,0 +1,28 @@
+.cabecera__resultado{
+    position: absolute;
+    top: 60px;
+    width: 40%;
+    height: auto;
+    background: var(--color_buscar-bkg);
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: none;
+    border-radius: 15px;
+    border-color: var(--color_boton-login);
+    border-style: dashed;
+    border-width: 2px;
+}
+.limpiar{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color_boton-login);
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 50%;    
+    cursor: pointer;
+    display: none;
+    top: 35px;
+}

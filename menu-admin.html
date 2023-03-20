@@ -19,8 +19,8 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/cabecera.css" />
         <link rel="stylesheet" href="css/footer.css" />
-        <link rel="stylesheet" href="css/agregar.css" />
-        <link rel="stylesheet" href="css/administrador.css">
+        <link rel="stylesheet" href="css/menu-adnim.css" />
+        <link rel="stylesheet" href="css/resultado.css" />
     </head>
     <body>
         <header class="cabecera">
@@ -33,88 +33,38 @@
                     />
                 </a>
                 <div class="cabecera__contenedorb">
+                    
                     <div class="cabecera__buscar">
                         <input
                             class="cabecera__input"
                             type="search"
                             placeholder="Buscar"
+                            id="cabecera__input"
                         />
+                        
                         <div class="cabecera__icono">
-                            <i class="fa fa-search"></i>
+                            <i id="icono__buscar" class="fa fa-search"></i>
+                            
                         </div>
+                        <span class="limpiar" id="limpiar">X</span>
+                        <div class="cabecera__resultado" id="resultado"></div>
+                        
                     </div>
-                    <a class="cabecera__login-admin" href="menu-admin.html">
-                        <span class="cabecera__admin">Menu Administrador</span>
-                    </a>
+                    
                 </div>
             </div>
         </header>
 
         <main class="main">
             <section class="producto">
-                <form action="" class="producto__contenedor" data-form>
-                    <span class="producto__titulo titulo"
-                        >Agregar nuevo producto</span
-                    >
-
-                    <input
-                        id="producto__categoria"
-                        type="text"
-                        class="producto__categoria input"
-                        placeholder="Categoria"
-                        
-                        title="Este campo no puede estar en blando ni vacío"
-                        data-categoria
-                    />
-
-                    <input
-                        id="producto__imagen"
-                        type="text"
-                        class="producto__imagen input"
-                        placeholder="URL de la imagen"
-                        required
-                        title="Este campo no puede estar en blando ni vacío"
-                        data-imagen
-                    />
-
-                    <input
-                        id="producto__nombre"
-                        type="texto"
-                        class="producto__nombre input"
-                        placeholder="Nombre"
-                        required
-                        maxlength="20"
-                        title="Este campo no puede estar en blando ni vacío"
-                        data-nombre
-                    />
-
-                    <input
-                        id="producto__precio"
-                        type="number"
-                        class="producto__precio input"
-                        placeholder="Precio $"
-                        required
-                        max="1999"                        
-                        title="Este campo no puede estar en blando ni vacío"
-                        data-precio
-                    />
-
-                    <textarea
-                        name="Descripcion"
-                        id="producto__descripcion"
-                        cols="30"
-                        rows="10"
-                        class="producto__descripcion input"
-                        placeholder="Descripción del producto"
-                        maxlength="150"
-                        title="Este campo no puede estar en blando ni vacío"
-                        data-descripcion
-                    ></textarea>
-
-                    <button type="submit" class="producto__boton" id="producto__agregar">
-                        Agregar producto
-                    </button>
-                </form>
+                <table class="table">
+                    <thead class="producto__cabeza">
+                        <tr>
+                            <th class="table__titulo">Producto</th>
+                        </tr>
+                    </thead>
+                    <tbody data-table></tbody>
+                </table>
             </section>
         </main>
 
@@ -209,8 +159,9 @@
                 </span>
             </div>
         </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
         <script type="module" src="js/mensaje.js"></script>
-        <script type="module" src="controllers/agregar-producto.js"></script>
+        <script type="module" src="js/search.js"></script>
+        <script type="module" src="controllers/tabla-producto.js"></script>
     </body>
 </html>

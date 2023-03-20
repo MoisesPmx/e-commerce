@@ -17,6 +17,10 @@
     --boxshadow_normal: #5f3815;
     --color_footer: #ccd5ae;
     --color_boton-enviar: #0081a7;
+    --color_boton-producto: #0081a7;
+    --color_rojo: #EA5455;
+    --color_azul: #0081a7;
+    
 }
 
 body {

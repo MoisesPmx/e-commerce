@@ -13,7 +13,7 @@ main {
     width: 40%;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 530px;
     justify-content: space-around;
     align-items: center;
     padding: 25px;

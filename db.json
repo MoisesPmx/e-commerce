@@ -1,10 +1,28 @@
 {
-    "producto": [
-        {
-            "imagen": "href: ",
-            "nombre": "chokocoa",
-            "precio": "350",
-            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum explicabo tempora modi nemo? Ipsam eaque deleniti enim porro beatae alias, modi dolores, tenetur praesentium, nihil libero odit temporibus. Commodi, quas!"            
-        }
-    ]
+  "producto": [
+    {
+      "categoria": "pastel",
+      "imagen": "img/pastel0.png",
+      "nombre": "Chokomilk",
+      "precio": "529",
+      "descripcion": "Delicioso sabor original a chokoleche",
+      "id": "bec02f3f-12a6-46c1-beaf-f7820b2c78c9"
+    },
+    {
+      "categoria": "bebidas",
+      "imagen": "img/bebida1.png",
+      "nombre": "Licuado loco",
+      "precio": "129",
+      "descripcion": "Licuado con exquisita leche de vaca loca",
+      "id": "ed31b17d-6ed9-417c-b43e-acc523219575"
+    },
+    {
+      "categoria": "variedad",
+      "imagen": "img/choko1.png",
+      "nombre": "Chocolate",
+      "precio": "150",
+      "descripcion": "Delicioso Chocolate hecho con cacao puro y leche de vaca loka",
+      "id": "74e8901e-b362-4e57-8f7d-20032b6573d7"
+    }
+  ]
 }

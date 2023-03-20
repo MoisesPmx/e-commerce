@@ -1,0 +1,42 @@
+import {productoServicio} from"../service/productos.js"
+const tablaProducto = (categoria, imagen, nombre, id) => {
+    
+    const card = document.createElement("div")
+    const contenido = `
+    <li class="producto__item">
+    <span class="table__categoria">${categoria}</span>
+    <img
+        class="producto__img"
+        src="${imagen}"
+        alt=""
+    /><span class="producto__nombre" >${nombre}</span
+    >
+    <div class="table__edit"><i class="fa-solid fa-pencil"></i></div>
+    <div class="table__trash"><i class="fa-solid fa-trash-can" data-trash id="${id}"></i></div>    
+</li>`;
+
+    card.innerHTML = contenido;
+    card.dataset.id = id;
+    
+    const iconTrash = card.querySelector('[data-trash]')
+    iconTrash.addEventListener('click', () => {
+        const identificador = iconTrash.id;
+        console.log('Un click', identificador)
+        productoServicio.eliminarProducto(identificador).then(respuesta => {
+            console.log(respuesta)
+        }).catch(error => alert('Error en iconTrash'))
+    })
+    console.log()  
+
+    return card;    
+}
+
+const listaEliminar = document.querySelector("[data-table]");
+
+productoServicio.listaProductos().then(valores => {
+    valores.forEach(({categoria,imagen,nombre,id}) => {
+        const tabla = tablaProducto(categoria,imagen,nombre,id)
+        listaEliminar.appendChild(tabla)
+    })
+}).catch(unerror => alert('Error en TABLA'))
+

@@ -1,0 +1,19 @@
+{
+  "name": "tienda_online",
+  "version": "1.0.0",
+  "description": "Proyecto personal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoisesPmx/tienda_online.git"
+  },
+  "author": "Moises Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoisesPmx/tienda_online/issues"
+  },
+  "homepage": "https://github.com/MoisesPmx/tienda_online#readme"
+}

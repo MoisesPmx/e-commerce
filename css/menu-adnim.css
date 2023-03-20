@@ -1,0 +1,70 @@
+main {
+    height: auto;
+    background-color: var(--color_bkg);
+    display: flex;
+    justify-content: center;
+    padding: 55px 0 55px 0;
+}
+.producto{
+    background: var(--color_buscar-bkg);
+    width: 40%;
+    padding: 35px;
+    border-radius: 15px;
+}
+.table{
+    width: 100%;
+}
+.table__titulo{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color_boton-login);
+}
+.producto__cabeza{
+    width: 100%;
+}
+.producto__item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: s;
+    background: var(--color_cabecera);
+    border-radius: 15px;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.producto__img{
+    width: 50px;
+    padding: 7px;
+    border-radius: 50%;
+}
+.table__categoria{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    padding: 0 0 0 20px;
+}
+.producto__nombre{
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.table__trash{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.table__edit{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+i {
+    cursor: pointer;
+}
+.fa-trash-can:hover{
+    color: var(--color_rojo);
+}
+.fa-pencil:hover{
+    color: var(--color_azul);
+}

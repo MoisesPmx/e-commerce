@@ -52,6 +52,7 @@
     transform: translateY(-50%);
     transition: 0.5s;
     text-align: center;
+    cursor: pointer;
 }
 .cabecera__login {
     width: 120px;
