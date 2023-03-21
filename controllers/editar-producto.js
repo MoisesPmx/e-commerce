@@ -22,7 +22,7 @@ const infoProducto = () => {
         imagen.value = producto.imagen;
         precio.value = producto.precio;
         descripcion.value = producto.descripcion;
-    });
+    });   
 };
 
 infoProducto();

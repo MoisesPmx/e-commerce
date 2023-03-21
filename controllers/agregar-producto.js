@@ -12,6 +12,8 @@ formAddProducto.addEventListener("submit", (evento) => {
 
     productoServicio
         .crearProducto(categoria, imagen, nombre, precio, descripcion)
-        .then(() => {})
+        .then(() => {
+            window.location.href = "agregado.html";
+        })
         .catch((err) => console.log(err));
 });

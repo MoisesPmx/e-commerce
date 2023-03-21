@@ -23,7 +23,7 @@ const nuevoProducto = (categoria,imagen, nombre, precio, id) => {
 }
 
 const pastel = document.querySelector("[data-pastel],[data-todo]");
-const bebidas = document.querySelector("[data-bebidas],[data-todo]");
+const bebida = document.querySelector("[data-bebidas],[data-todo]");
 const variedad = document.querySelector("[data-variedad],[data-todo]");
 
 productoServicio.listaProductos().then(valores => {
@@ -31,8 +31,8 @@ productoServicio.listaProductos().then(valores => {
         const nuevaTarjeta = nuevoProducto(categoria,imagen,nombre,precio,id)
         if (categoria === "pastel") {
             pastel.appendChild(nuevaTarjeta);
-          } else if (categoria === "bebidas") {
-            bebidas.appendChild(nuevaTarjeta);
+          } else if (categoria === "bebida") {
+            bebida.appendChild(nuevaTarjeta);
           } else if (categoria === "variedad") {
             variedad.appendChild(nuevaTarjeta);
           }           
