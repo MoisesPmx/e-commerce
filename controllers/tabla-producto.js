@@ -11,7 +11,7 @@ const tablaProducto = (categoria, imagen, nombre, id) => {
         alt=""
     /><span class="producto__nombre" >${nombre}</span
     >
-    <div class="table__edit"><i class="fa-solid fa-pencil"></i></div>
+    <div class="table__edit"><a href="editar.html?identificador=${id}"><i class="fa-solid fa-pencil"></i></a></div>
     <div class="table__trash"><i class="fa-solid fa-trash-can" data-trash id="${id}"></i></div>    
 </li>`;
 

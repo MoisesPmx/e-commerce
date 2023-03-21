@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tienda Online</title>
+        <script
+            src="https://kit.fontawesome.com/11cc40342e.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/cabecera.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <link rel="stylesheet" href="css/login.css" />
+        <link rel="stylesheet" href="css/mensaje.css" />
+    </head>
+    <body>
+        <header class="cabecera">
+            <div class="cabecera__contenedor">
+                <a href="index.html">
+                    <img
+                        src="img/Logo.png"
+                        alt="Logo de la tienda"
+                        class="comercio__logo"
+                    />
+                </a>
+                <div class="cabecera__contenedorb">
+                    <div class="cabecera__buscar">
+                        <input
+                            class="cabecera__input"
+                            type="search"
+                            placeholder="Buscar"
+                        />
+                        <div class="cabecera__icono">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="login">
+                <form action="" class="login__contenedor">
+                    <span class="mensaje__titulo titulo"
+                        >Ocurrio un error</span
+                    >
+                    <a href="index.html">
+                        <span class="cabecera__login" id="boton__login"
+                            >OK</span
+                        >
+                    </a>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__contenedor">
+                <div class="footer__contenedorb">
+                    <div class="footer__logo">
+                        <a href="index.html" class="logo__contenedor">
+                            <img
+                                src="img/Logo.png"
+                                alt="Logo chokoreto"
+                                class="footer__img"
+                            />
+                        </a>
+                    </div>
+                    <div class="contacto">
+                        <ul class="contacto__lista">
+                            <li class="contacto__item">
+                                <a href="#" class="contacto__link"
+                                    >Quienes somos</a
+                                >
+                            </li>
+                            <li class="contacto__item">
+                                <a href="#" class="contacto__link"
+                                    >Politicas de privacidad</a
+                                >
+                            </li>
+                            <li class="contacto__item">
+                                <a href="#" class="contacto__link"
+                                    >Programa de fidelidad</a
+                                >
+                            </li>
+                            <li class="contacto__item">
+                                <a href="#" class="contacto__link"
+                                    >Nuestras tiendas</a
+                                >
+                            </li>
+                            <li class="contacto__item">
+                                <a href="#" class="contacto__link"
+                                    >Quiero ser franquiciado</a
+                                >
+                            </li>
+                            <li class="contacto__item">
+                                <a href="#" class="contacto__link"
+                                    >Anuncie aquí</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="formulario">
+                    <form action="" class="formulario__contenedor">
+                        <span class="formulario__titulo"
+                            >Hable con nosotros</span
+                        >
+                        <input
+                            id="formulario__nombre"
+                            type="text"
+                            class="formulario__nombre"
+                            placeholder="Nombre"
+                            required
+                            maxlength="40"
+                            title="Este campo no puede ir vacío (max 40 carácteres)"
+                        />
+                        <textarea
+                            name="formulario__textarea"
+                            id="formulario__textarea"
+                            cols="30"
+                            rows="10"
+                            class="formulario__textarea"
+                            placeholder="Mensaje"
+                            required
+                            maxlength="120"
+                            title="Este campo no puede ir vacío (max 120 carácteres)"
+                        ></textarea>
+                        <button
+                            id="formulario__boton"
+                            type="submit"
+                            class="formulario__boton"
+                        >
+                            Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__dev">
+                <span class="footer__dev-texto">
+                    <a href="https://moisespmx.github.io/portafolio/">
+                        Desarrollado por Moisés Pérez <br />
+                        2023
+                    </a>
+                </span>
+            </div>
+        </footer>
+        <script type="module" src="js/mensaje.js"></script>
+        <script type="module" src="js/busqueda.js"></script>
+    </body>
+</html>

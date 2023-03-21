@@ -1,18 +1,10 @@
 {
   "producto": [
     {
-      "categoria": "pastel",
-      "imagen": "img/pastel0.png",
-      "nombre": "Chokomilk",
-      "precio": "529",
-      "descripcion": "Delicioso sabor original a chokoleche",
-      "id": "bec02f3f-12a6-46c1-beaf-f7820b2c78c9"
-    },
-    {
       "categoria": "bebidas",
       "imagen": "img/bebida1.png",
-      "nombre": "Licuado loco",
-      "precio": "129",
+      "nombre": "Licuado lokocoa",
+      "precio": "229",
       "descripcion": "Licuado con exquisita leche de vaca loca",
       "id": "ed31b17d-6ed9-417c-b43e-acc523219575"
     },
