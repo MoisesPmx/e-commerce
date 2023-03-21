@@ -13,7 +13,7 @@ formAddProducto.addEventListener("submit", (evento) => {
     productoServicio
         .crearProducto(categoria, imagen, nombre, precio, descripcion)
         .then(() => {
-            window.location.href = "agregado.html";
+            window.location.href = "../screens/agregado.html";
         })
         .catch((err) => console.log(err));
 });

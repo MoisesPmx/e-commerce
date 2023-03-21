@@ -7,7 +7,7 @@ const infoProducto = () => {
     const idnt = url.searchParams.get("identificador");
 
     if (idnt === null) {
-        window.location.href = "/error.html";
+        window.location.href = "../screens/error.html";
     }
 
     const nombre = document.querySelector("[data-nombre]");
@@ -42,6 +42,6 @@ formulario.addEventListener("submit", (evento) => {
     productoServicio
         .updateProducto(categoria, imagen, nombre, precio, descripcion, idnt)
         .then(() => {
-            window.location.href = "cambio-exitoso.html";
+            window.location.href = "../screens/cambio-exitoso.html";
         });
 });

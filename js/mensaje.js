@@ -10,6 +10,6 @@ boton.addEventListener("click", function validar(evento) {
         
     } else {
         
-        window.location.href = "../enviado.html";
+        window.location.href = "../screens/enviado.html";
     }
 });

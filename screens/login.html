@@ -15,18 +15,19 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="css/reset.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/cabecera.css" />
-        <link rel="stylesheet" href="css/footer.css" />
-        <link rel="stylesheet" href="css/login.css" />
+        <link rel="stylesheet" href="../css/reset.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/cabecera.css" />
+        <link rel="stylesheet" href="../css/footer.css" />
+        <link rel="stylesheet" href="../css/login.css" />
+        <link rel="stylesheet" href="../css/resultado.css">
     </head>
     <body>
         <header class="cabecera">
             <div class="cabecera__contenedor">
-                <a href="index.html">
+                <a href="../index.html">
                     <img
-                        src="img/Logo.png"
+                        src="../img/Logo.png"
                         alt="Logo de la tienda"
                         class="comercio__logo"
                     />
@@ -37,14 +38,19 @@
                             class="cabecera__input"
                             type="search"
                             placeholder="Buscar"
+                            id="cabecera__input"
                         />
                         <div class="cabecera__icono">
-                            <i class="fa fa-search"></i>
+                            <i id="icono__buscar" class="fa fa-search"></i>
                         </div>
-                    </div>
+                        <div class="limpiar" id="limpiar"
+                        ><i class="fa-solid fa-square-exclamation"></i
+                    ></div>
+                        <div class="cabecera__resultado" id="resultado"></div>
+                    </div>                    
                 </div>
             </div>
-        </header>
+        </header>   
 
         <main class="main">
             <section class="login">
@@ -73,7 +79,7 @@
                         type="submit"
                         class="login__boton"
                     >
-                        Entrar
+                        Login
                     </button>
                 </form>
             </section>
@@ -83,9 +89,9 @@
             <div class="footer__contenedor">
                 <div class="footer__contenedorb">
                     <div class="footer__logo">
-                        <a href="index.html" class="logo__contenedor">
+                        <a href="../index.html" class="logo__contenedor">
                             <img
-                                src="img/Logo.png"
+                                src="../img/Logo.png"
                                 alt="Logo chokoreto"
                                 class="footer__img"
                             />
@@ -170,8 +176,8 @@
                 </span>
             </div>
         </footer>
-        <script type="module" src="js/mensaje.js"></script>
-        <script type="module" src="js/usuario.js"></script>
-        <script type="module" src="js/busqueda.js"></script>
+        <script type="module" src="../js/mensaje.js"></script>
+        <script type="module" src="../js/usuario.js"></script>
+        <script type="module" src="../js/search.js"></script>
     </body>
 </html>

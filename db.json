@@ -1,3 +1,12 @@
 {
-  "producto": []
+  "producto": [
+    {
+      "categoria": "pastel",
+      "imagen": "../img/pastel0.png",
+      "nombre": "Chokomilk",
+      "precio": "529",
+      "descripcion": "Este pastel es una delicia para los amantes del chocolate. Está hecho con una mezcla de leche en polvo, chocolate en polvo, azúcar y polvo para flan. ",
+      "id": "2ef87986-7880-48ca-8d34-b107fc41f0c5"
+    }
+  ]
 }

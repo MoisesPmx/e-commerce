@@ -4,116 +4,60 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Tienda Online - Home</title>
-        <script
-            src="https://kit.fontawesome.com/11cc40342e.js"
-            crossorigin="anonymous"
-        ></script>
+        <title>Tienda Online</title>
+        <script src="https://kit.fontawesome.com/11cc40342e.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="css/reset.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/cabecera.css" />
-        <link rel="stylesheet" href="css/banner.css" />
-        <link rel="stylesheet" href="css/productos.css" />
-        <link rel="stylesheet" href="css/footer.css" />
-        <link rel="stylesheet" href="css/resultado.css" />
+        <link rel="stylesheet" href="../css/reset.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/cabecera.css" />
+        <link rel="stylesheet" href="../css/banner.css" />
+        <link rel="stylesheet" href="../css/productos.css" />
+        <link rel="stylesheet" href="../css/footer.css" />
+        <link rel="stylesheet" href="../css/resultado.css">
     </head>
     <body>
         <header class="cabecera">
             <div class="cabecera__contenedor">
-                <a href="index.html">
+                <a href="../index.html">
                     <img
-                        src="img/Logo.png"
+                        src="../img/Logo.png"
                         alt="Logo de la tienda"
                         class="comercio__logo"
                     />
                 </a>
                 <div class="cabecera__contenedorb">
-                    <div class="cabecera__contenedorb">
-                        <div class="cabecera__buscar">
-                            <input
-                                class="cabecera__input"
-                                type="search"
-                                placeholder="Buscar"
-                                id="cabecera__input"
-                            />
-                            <div class="cabecera__icono">
-                                <i id="icono__buscar" class="fa fa-search"></i>
-                            </div>
-                            <div class="limpiar" id="limpiar"
-                                ><i class="fa-solid fa-square-exclamation"></i
-                            ></div>
-                            <div
-                                class="cabecera__resultado"
-                                id="resultado"
-                            ></div>
+                    <div class="cabecera__buscar">
+                        <input
+                            class="cabecera__input"
+                            type="search"
+                            placeholder="Buscar"
+                            id="cabecera__input"
+                        />
+                        <div class="cabecera__icono">
+                            <i id="icono__buscar" class="fa fa-search"></i>
                         </div>
-                    </div>
-                    <a class="cabecera__login-contenedor" href="../screens/login.html">
-                        <span class="cabecera__login">Login</span>
-                    </a>
+                        <div class="limpiar" id="limpiar"
+                        ><i class="fa-solid fa-square-exclamation"></i
+                    ></div>
+                        <div class="cabecera__resultado" id="resultado"></div>
+                    </div>                    
                 </div>
             </div>
-        </header>
-        <main class="main">
-            <section class="banner">
-                <img
-                    src="img/banner.jpg"
-                    alt="imagen de portada"
-                    class="banner__img"
-                />
-                <div class="banner__contenedor">
-                    <h2 class="banner__titulo">Febrero promocionales</h2>
-                    <h3 class="banner__subtitulo">
-                        Productos selecionados con 33% de descuento
-                    </h3>
-                    <a href="#variedad" class="banner__link">
-                        <span class="banner__boton">Lo quiero!</span>
-                    </a>
-                </div>
-            </section>
+        </header>   
             <section class="producto">
                 <div class="producto__contenedor">
-                    <div class="producto__header">
-                        <span class="producto__titulo titulo">Pasteles</span>
-                        <span class="producto__todolink"
-                            ><a href="screens/todo.html"
-                                >ver todo
-                                <i class="fa-solid fa-arrow-right"></i></a
-                        ></span>
-                    </div>
-                    <ul class="producto__lista" data-pastel></ul>
-                </div>
-            </section>
-            <section class="producto">
-                <div class="producto__contenedor">
-                    <div class="producto__header">
-                        <span class="producto__titulo titulo">Bebidas</span>
-                        <span class="producto__todolink"
-                            ><a href="screens/todo.html"
-                                >ver todo
-                                <i class="fa-solid fa-arrow-right"></i></a
-                        ></span>
-                    </div>
-                    <ul class="producto__lista" data-bebidas></ul>
-                </div>
-            </section>
-            <section class="producto" id="variedad">
-                <div class="producto__contenedor">
-                    <div class="producto__header">
-                        <span class="producto__titulo titulo">Variedad</span>
-                        <span class="producto__todolink"
-                            ><a href="screens/todo.html"
-                                >ver todo
-                                <i class="fa-solid fa-arrow-right"></i></a
-                        ></span>
-                    </div>
-                    <ul class="producto__lista" data-variedad></ul>
+                    <div class="producto__header  producto__header-agregar">
+                        <span class="producto__titulo titulo mobil">Todos los productos</span>
+                        <span class="agregarProducto__boton"><a href="login.html">Agregar producto</a></span>
+                        </div>
+                    <ul class="producto__lista" data-todo>
+                        
+                    </ul>
                 </div>
             </section>
         </main>
@@ -121,12 +65,12 @@
             <div class="footer__contenedor">
                 <div class="footer__contenedorb">
                     <div class="footer__logo">
-                        <a href="index.html" class="logo__contenedor">
-                            <img
-                                src="img/Logo.png"
-                                alt="Logo chokoreto"
-                                class="footer__img"
-                            />
+                        <a href="../index.html" class="logo__contenedor">
+                        <img
+                            src="../img/Logo.png"
+                            alt="Logo chokoreto"
+                            class="footer__img"
+                        />
                         </a>
                     </div>
                     <div class="contacto">
@@ -208,8 +152,8 @@
                 </span>
             </div>
         </footer>
-        <script type="module" src="js/mensaje.js"></script>
-        <script type="module" src="js/search.js"></script>
-        <script type="module" src="controllers/producto-controller.js"></script>
+        <script type="module" src="../js/mensaje.js"></script>
+        <script type="module" src="../js/search.js"></script>
+        <script type="module" src="../controllers/producto-controller.js"></script>
     </body>
 </html>

@@ -8,7 +8,7 @@ botonx.addEventListener("click", (evento) => {
     var contraseniaCorrecta = "1234";
 
     if (usuario == usuarioCorrecto && contrasenia == contraseniaCorrecta) {
-        window.location.href = "../agregar.html";
+        window.location.href = "../screens/agregar.html";
         return true;
     } else {
         alert("Usuario y/o contraseña incorrectos");
