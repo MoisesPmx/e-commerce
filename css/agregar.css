@@ -1,6 +1,6 @@
 main {
     height: 90vh;
-    background-color: var(--color_bkg);
+    background-color: var(--color_cafeclaro);
 }
 .producto {
     width: 100%;
@@ -8,6 +8,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.producto__titulo{
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .producto__contenedor {
     width: 40%;
@@ -17,11 +21,11 @@ main {
     justify-content: space-around;
     align-items: center;
     padding: 25px;
-    background-color: var(--color_cabecera);
+    background-color: var(--color_verdeclaro);
     border-radius: 15px;
 }
 .producto__titulo {
-    color: var(--color_boton-producto);
+    color: var(--color_azul);
 }
 .input__contenedor {    
     position: relative;
@@ -38,7 +42,7 @@ main {
     font-family: var(--raleway);
     font-weight: 500;
     font-size: 1rem;
-    background-color: var(--color_bkg-card);
+    background-color: var(--color_crema);
     padding: 15px;
     box-sizing: border-box;
 }
@@ -54,11 +58,23 @@ main {
     height: 40px;
     border: none;
     border-radius: 10px;
-    background-color: var(--color_boton-enviar);
+    background-color: var(--color_azul);
     font-size: 1rem;
     font-weight: 600;
-    color: var(--color_boton-fuente);
+    color: var(--color_crema);
     cursor: pointer;
+}
+.cabecera__login-admin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color_azul);    
+    font-size: 1rem;
+    font-weight: 600;    
+    color: var(--color_crema);
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 1008px) {

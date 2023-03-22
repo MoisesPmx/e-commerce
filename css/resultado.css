@@ -1,24 +1,25 @@
 .cabecera__resultado{
     position: absolute;
     top: 60px;
-    width: 40%;
+    width: 23%;
     height: auto;
-    background: var(--color_buscar-bkg);
+    background: var(--color_crema);
     padding: 20px;
     font-size: 1rem;
     font-weight: 500;
     display: none;
     border-radius: 15px;
-    border-color: var(--color_boton-login);
+    border-color: var(--color_cafe);
     border-style: dashed;
     border-width: 2px;
+    transform: translate(-20%);
 }
 .limpiar{
     position: absolute;
     cursor: pointer;
     display: none;
     top: 70px;
-    right: 30%;
+    right: 33%;
 }
 
 .clean{

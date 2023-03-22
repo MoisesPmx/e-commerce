@@ -14,13 +14,13 @@
         />
         <link rel="stylesheet" href="../css/reset.css" />
         <link rel="stylesheet" href="../css/style.css" />
-        <link rel="stylesheet" href="../css/cabecera.css" />
-        <link rel="stylesheet" href="../css/banner.css" />
+        <link rel="stylesheet" href="../css/header.css" />        
         <link rel="stylesheet" href="../css/productos.css" />
         <link rel="stylesheet" href="../css/footer.css" />
         <link rel="stylesheet" href="../css/resultado.css">
+        <link rel="stylesheet" href="../css/index.css">
     </head>
-    <body>
+    <body class="body">
         <header class="cabecera">
             <div class="cabecera__contenedor">
                 <a href="../index.html">
@@ -30,25 +30,34 @@
                         class="comercio__logo"
                     />
                 </a>
-                <div class="cabecera__contenedorb">
-                    <div class="cabecera__buscar">
-                        <input
-                            class="cabecera__input"
-                            type="search"
-                            placeholder="Buscar"
-                            id="cabecera__input"
-                        />
-                        <div class="cabecera__icono">
-                            <i id="icono__buscar" class="fa fa-search"></i>
+                <div class="cabecera__contenedora">
+                    <div class="cabecera__contenedorb">
+                        <div class="cabecera__buscar">
+                            <input
+                                class="cabecera__input"
+                                type="search"
+                                placeholder="Buscar"
+                                id="cabecera__input"
+                            />
+                            <div class="cabecera__icono">
+                                <i id="icono__buscar" class="fa fa-search"></i>
+                            </div>
+                            
+                            <div
+                                class="cabecera__resultado"
+                                id="resultado"
+                            ></div>
+                            <div class="limpiar" id="limpiar"
+                                >
+                                <img class="clean" src="img/clean.png" alt="">
+                            </div>
                         </div>
-                        <div class="limpiar" id="limpiar"
-                        ><i class="fa-solid fa-square-exclamation"></i
-                    ></div>
-                        <div class="cabecera__resultado" id="resultado"></div>
-                    </div>                    
+                    </div>
+                    
                 </div>
             </div>
-        </header>   
+        </header>
+        <main class="main">
             <section class="producto">
                 <div class="producto__contenedor">
                     <div class="producto__header  producto__header-agregar">

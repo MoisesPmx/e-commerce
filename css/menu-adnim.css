@@ -1,12 +1,12 @@
 main {
     height: auto;
-    background-color: var(--color_bkg);
+    background-color: var(--color_cafeclaro);
     display: flex;
     justify-content: center;
     padding: 55px 0 55px 0;
 }
 .producto{
-    background: var(--color_buscar-bkg);
+    background: var(--color_crema);
     width: 40%;
     padding: 35px;
     border-radius: 15px;
@@ -15,9 +15,9 @@ main {
     width: 100%;
 }
 .table__titulo{
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: var(--color_boton-login);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color_azul);
 }
 .producto__cabeza{
     width: 100%;
@@ -26,8 +26,8 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: s;
-    background: var(--color_cabecera);
+    
+    background: var(--color_verdeclaro);
     border-radius: 15px;
     margin-top: 15px;
     font-size: 1rem;

@@ -1,5 +1,23 @@
 .mensaje__titulo{
     text-align: center;
-    color: var(--color_boton-login);
+    color: var(--color_azul);
     padding: 5%;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+.login__contenedor{
+    background: var(--color_verdeclaro);    
+}
+.cabecera__login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color_azul);    
+    font-size: 1rem;
+    font-weight: 600;    
+    color: var(--color_crema);
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
 }

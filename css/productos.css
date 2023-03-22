@@ -1,10 +1,12 @@
-main {
-    background-color: var(--color_bkg);
-}
 .producto {
     padding: 40px 0 0 0;
     width: 100%;
-    background-color: var(--color_bkg);
+    
+}
+.producto__titulo{
+    color: var(--color_crema);
+    font-size: 2rem;
+    font-weight: 600;
 }
 .producto__header {
     width: 100%;
@@ -16,7 +18,7 @@ main {
 .producto__contenedor {
     display: flex;
     flex-direction: column;
-    padding: 0 10% 0 10%;
+    padding: 0 8% 0 8%;
 }
 .producto__lista {
     display: flex;
@@ -25,20 +27,20 @@ main {
     padding-bottom: 2rem;
 }
 .producto__item {
-    width: 150px;
-    background-color: var(--color_bkg-card);
+    width: 85%;
+    background-color: var(--color_crema);
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 240px;
     border-radius: 20px;
-    box-shadow: 7px 7px 2px var(--boxshadow_normal);
+    box-shadow: 7px 7px 2px var(--color_cafe);
     transition: 0.4s all;
     margin-bottom: 15px;
 }
 .producto__item:hover {
-    box-shadow: 7px 7px 14px var(--boxshadow_hover);
+    box-shadow: 7px 7px 14px var(--color_verde);
 }
 .producto__img {
     border-radius: 15px;
@@ -52,12 +54,12 @@ main {
     font-size: 1rem;
 }
 .producto__link {
-    color: var(--color_producto);
-    font-weight: 500;
+    color: var(--color_azul);
+    font-weight: 600;
     font-size: 1rem;
 }
 .producto__todolink {
-    color: var(--color_bkg-card);
+    color: var(--color_crema);
     font-weight: 600;
     font-size: 1rem;
 }
@@ -69,10 +71,10 @@ main {
     height: 40px;
     border: none;
     border-radius: 10px;
-    background-color: var(--color_boton-enviar);
+    background-color: var(--color_azul);
     font-size: 1rem;
     font-weight: 600;
-    color: var(--color_boton-fuente);
+    color: var(--color_crema);
     cursor: pointer;
 }
 @media screen and (max-width: 1007px) {
@@ -92,7 +94,7 @@ main {
         justify-content: center;
     }
     .producto__item:hover {
-        box-shadow: 7px 7px 2px var(--boxshadow_normal);
+        box-shadow: 7px 7px 2px var(--color_cafe);
     }
     .producto__nombre {
         font-size: 1.2rem;

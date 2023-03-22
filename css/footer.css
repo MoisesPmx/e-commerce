@@ -2,16 +2,9 @@
     display: flex;
     flex-direction: column;
     padding: 40px 10% 0 10%;
-    background-color: var(--color_footer);
+    background-color: var(--color_verdeclaro);
 }
-.footer__logo{
-    background-color: var(--color_bkg-logo);
-    padding: 0 15px 0 15px;
-    border-radius: 20px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-}
+
 .footer__contenedor{
     height: 300px;
     display: flex;
@@ -50,7 +43,7 @@
     height: 35px;
     border: none;
     outline: none;
-    background-color: var(--color_bkg-card);
+    background-color: var(--color_crema);
     font-size: 1rem;
     padding: 0 0 0 20px;
     font-family: var(--raleway);
@@ -58,7 +51,7 @@
     font-weight: 500;
 }
 .formulario__nombre::placeholder {
-    color: var(--color_buscar-texto);
+    color: var(--color_cafeclaro);
     font-size: 1rem;
     font-weight: 500;    
 }
@@ -68,7 +61,7 @@
     resize: none;
     border: none;
     outline: none;
-    background-color: var(--color_bkg-card);
+    background-color: var(--color_crema);
     font-size: 1rem;
     font-family: var(--raleway);
     font-size: 1rem;
@@ -77,7 +70,7 @@
     padding: 15px 20px 15px 20px;
 }
 .formulario__textarea::placeholder{
-    color: var(--color_buscar-texto);
+    color: var(--color_cafeclaro);
     font-size: 1rem;
     font-weight: 500;    
 }
@@ -86,10 +79,10 @@
     height: 40px;
     border: none;
     border-radius: 10px;
-    background-color: var(--color_boton-enviar);
+    background-color: var(--color_azul);
     font-size: 1rem;
     font-weight: 600;
-    color: var(--color_boton-fuente);  
+    color: var(--color_crema);  
     cursor: pointer;  
 }
 .footer__dev{
@@ -100,6 +93,7 @@
     text-align: center;
     font-size: .85rem;
     font-weight: 600;
+    padding-top: 30px;
 }
 
 @media screen and (max-width: 1007px) {

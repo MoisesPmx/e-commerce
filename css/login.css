@@ -1,6 +1,6 @@
 main {
     height: 70vh;
-    background-color: var(--color_bkg);
+    background-color: var(--color_cafeclaro);
 }
 .login {
     width: 100%;
@@ -17,11 +17,13 @@ main {
     justify-content: space-around;
     align-items: center;
     padding: 25px;
-    background-color: var(--color_cabecera);
+    background-color: var(--color_verdeclaro);
     border-radius: 15px;
 }
 .login__titulo {
-    color: var(--color_boton-login);
+    color: var(--color_azul);
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .input__contenedor {
     position: relative;
@@ -38,7 +40,7 @@ main {
     font-family: var(--raleway);
     font-weight: 500;
     font-size: 1rem;
-    background-color: var(--color_bkg-card);
+    background-color: var(--color_crema);
     padding: 15px;
     box-sizing: border-box;
 }
@@ -50,10 +52,10 @@ main {
     height: 40px;
     border: none;
     border-radius: 10px;
-    background-color: var(--color_boton-enviar);
+    background-color: var(--color_azul);
     font-size: 1rem;
     font-weight: 600;
-    color: var(--color_boton-fuente);
+    color: var(--color_crema);
     cursor: pointer;
 }
 

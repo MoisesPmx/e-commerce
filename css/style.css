@@ -1,44 +1,17 @@
 :root {
     --raleway: "Raleway", sans-serif;
-    --color_cabecera: #ccd5ae;
-    --color_boton-login: #0081a7;
-    --color_boton-fuente: #f5f5f5;
-    --color_buscar-bkg: #fefae0;
-    --color_banner-titulo: #fdfdfd;
-    --color_buscar-icono: #dda15e;
-    --color_buscar-texto: #dda15e;
-    --color_titulo: #fefae0;
-    --color_boton-comprar: #dda15e;
-    --color_bkg: #d4a373;    
-    --color_bkg-card: #fefae0;
-    --color_bkg-logo: #FFFFE8;
-    --color_producto: #dda15e;
-    --boxshadow_hover: #a7c957;
-    --boxshadow_normal: #5f3815;
-    --color_footer: #ccd5ae;
-    --color_boton-enviar: #0081a7;
-    --color_boton-producto: #0081a7;
+
     --color_rojo: #EA5455;
     --color_azul: #0081a7;
-    
+    --color_verdeclaro: #ccd5ae;
+    --color_blanco: #f5f5f5;
+    --color_crema: #fefae0;
+    --color_blancodos: #fdfdfd;
+    --color_cafeclaro: #dda15e;
+    --color_cafe: #5f3815;
+    --color_verde: #a7c957;    
 }
 
-body {
+body{
     font-family: var(--raleway);
-}
-.titulo {
-    color: var(--color_titulo);
-    font-size: 1.75rem;
-    font-weight: 700;    
-}
-.logo__contenedor{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-@media screen and (max-width: 640px) {
-    .logo__contenedor{
-        padding-left: 3%;        
-    }
 }
