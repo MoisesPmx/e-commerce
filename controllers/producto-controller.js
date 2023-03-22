@@ -9,7 +9,7 @@ const nuevoProducto = (categoria,imagen, nombre, precio, id) => {
         alt=""
     /><span class="producto__nombre">${nombre}</span
     ><span class="producto__precio">$ ${precio}</span
-    ><a href="#?id=${id}" class="producto__link"
+    ><a href="../screens/detalles.html?identificador=${id}" class="producto__link"
         ><span class="producto__link"
             >Ver Producto</span
         ></a
@@ -38,3 +38,4 @@ productoServicio.listaProductos().then(valores => {
           }           
     })
 }).catch(unerror => alert('ocurrio un error'))
+

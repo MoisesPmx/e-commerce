@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="../css/productos.css" />
         <link rel="stylesheet" href="../css/footer.css" />
         <link rel="stylesheet" href="../css/descripcion.css" />
-        <link rel="stylesheet" href="../css/resultado.css">
+        <link rel="stylesheet" href="../css/resultado.css" />
     </head>
     <body>
         <header class="cabecera">
@@ -42,35 +42,40 @@
                             placeholder="Buscar"
                         />
                         <div class="cabecera__icono">
-                            <i class="fa fa-search"></i>
+                            <i id="icono__buscar" class="fa fa-search"></i>
                         </div>
-                    </div>                  
+                        <div class="cabecera__resultado" id="resultado"></div>
+                        <div class="limpiar" id="limpiar">
+                            <img class="clean" src="../img/clean.png" alt="" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
         <main class="main">
             <section class="descripcion">
-                <div class="descripcion__contenedor">
+                <div class="descripcion__contenedor" data-detail>
                     <div class="descripcion__uno">
                         <img
-                            src="../img/pastel0.png"
+                            src=""
                             alt=""
                             class="descripcion__img"
+                            data-imagen
                         />
                     </div>
                     <div class="descripcion__dos">
-                        <span class="descripcion__nombre descripcion__item"
-                            >Chokomilk</span
+                        <span
+                            class="descripcion__nombre descripcion__item"
+                            data-nombre
+                            ></span>
+                        <span
+                            class="descripcion__precio descripcion__item"
+                            data-precio
+                        ></span>
+                        <span
+                            class="descripcion__texto descripcion__item"
+                            data-descripcion
                         >
-                        <span class="descripcion__precio descripcion__item"
-                            >$ 429</span
-                        >
-                        <span class="descripcion__texto descripcion__item">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Id, hic ullam? Nam, inventore. Ducimus, eum
-                            repellendus vitae repudiandae quod dolorum
-                            exercitationem ut inventore nam itaque expedita,
-                            quas quis quidem beatae.
                         </span>
                     </div>
                 </div>
@@ -81,9 +86,7 @@
                     <span class="producto__titulo titulo"
                         >Productos similares</span
                     >
-                    <ul class="producto__lista">
-                        
-                    </ul>
+                    <ul class="producto__lista" data-similares></ul>
                 </div>
             </section>
         </main>
@@ -180,5 +183,7 @@
         </footer>
         <script type="module" src="../js/mensaje.js"></script>
         <script type="module" src="../js/search.js"></script>
+        <script type="module" src="../controllers/detalle-producto.js"></script>
+        <script type="module" src="../controllers/detalle-similares.js"></script>
     </body>
 </html>

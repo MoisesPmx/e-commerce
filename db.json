@@ -2,11 +2,147 @@
   "producto": [
     {
       "categoria": "pastel",
-      "imagen": "../img/pastel0.png",
-      "nombre": "Chokomilk",
+      "imagen": "../img/pastel1.png",
+      "nombre": "Mystery",
       "precio": "529",
-      "descripcion": "Este pastel es una delicia para los amantes del chocolate. Está hecho con una mezcla de leche en polvo, chocolate en polvo, azúcar y polvo para flan. ",
+      "descripcion": "Este pastel es una delicia para los amantes del chocolate. Con un relleno de dulce de leche y mensaje secreto dentro.",
       "id": "2ef87986-7880-48ca-8d34-b107fc41f0c5"
+    },
+    {
+      "categoria": "bebida",
+      "imagen": "../img/bebida1.png",
+      "nombre": "Karamelo",
+      "precio": "129",
+      "descripcion": " una bebida de chocolate caliente con leche, cacao en polvo, caramelo líquido y sal marina que tiene un sabor dulce y salado.",
+      "id": "e6eaa6d1-8b04-46e7-9e9e-9a18a856307a"
+    },
+    {
+      "categoria": "variedad",
+      "imagen": "../img/choko1.png",
+      "nombre": "Red Panda",
+      "precio": "249",
+      "descripcion": "un chocolate cremoso y suave con trocitos de frambuesa, arándano y fresa que le dan un toque ácido y refrescante. ¡No dejes de probarlo!",
+      "id": "0c979557-3670-4fe9-9c50-ec2c69fea23d"
+    },
+    {
+      "categoria": "pastel",
+      "imagen": "../img/pastel2.png",
+      "nombre": "Seduction",
+      "precio": "699",
+      "descripcion": "Combinación de tres chocolates, nueces y avellanas, Déjate seducir por su delicioso sabor. ¡No podrás parar de comerlo!",
+      "id": "cc3ad30d-ab81-44c9-a3ec-373edcd79548"
+    },
+    {
+      "categoria": "pastel",
+      "imagen": "../img/pastel3.png",
+      "nombre": "Donaji",
+      "precio": "499",
+      "descripcion": "Pastel de crema de avellanas y chocolate con cubierta de chocolate crujiente con nueces. ¡Excelente para celebrar a esa persona especial!",
+      "id": "42eb2e07-3553-4643-929f-0c51b63db8c5"
+    },
+    {
+      "categoria": "variedad",
+      "imagen": "../img/choko2.png",
+      "nombre": "Donut",
+      "precio": "49",
+      "descripcion": "Dona esponjosa y tierna rellena de chocolate fundido y cubierta de glaseado de chocolate y chispas de colores. Una explosión de sabor y diversión.",
+      "id": "dac04190-376c-4294-8dbe-3d66253932dd"
+    },
+    {
+      "categoria": "bebida",
+      "imagen": "../img/bebida2.png",
+      "nombre": "Avellana",
+      "precio": "129",
+      "descripcion": "Chocolate caliente con leche, cacao en polvo, crema de avellana y avellanas tostadas que tiene un sabor cremoso y delicioso.",
+      "id": "1ff66436-124f-4a0b-82d8-656ab9b947e6"
+    },
+    {
+      "categoria": "variedad",
+      "imagen": "../img/choko3.png",
+      "nombre": "Choko Chip",
+      "precio": "149",
+      "descripcion": "galleta crujiente y dorada con trocitos de chocolate negro que se derriten en la boca. Una clásica y tentadora combinación que nunca falla.",
+      "id": "7474ab77-c206-4a95-b48e-cd7d830d4e9c"
+    },
+    {
+      "categoria": "bebida",
+      "imagen": "../img/bebida3.png",
+      "nombre": "Yeye",
+      "precio": "219",
+      "descripcion": "chocolate frío con leche, helado de coco, malta en polvo y crema batida que tiene una textura espesa y suave.",
+      "id": "cf0de493-54b0-4f31-ae71-d37874c122b6"
+    },
+    {
+      "categoria": "bebida",
+      "imagen": "../img/bebida4.png",
+      "nombre": "Miranda",
+      "precio": "189",
+      "descripcion": "Chocolate frío con leche, hielo, crema batida y sirope de chocolate que tiene una textura cremosa y refrescante.",
+      "id": "cbaa73f6-1207-4dcf-9170-9c9a72d09d30"
+    },
+    {
+      "categoria": "pastel",
+      "imagen": "../img/pastel4.png",
+      "nombre": "Moon",
+      "precio": "549",
+      "descripcion": "Pastel de chocolate con relleno de crema batida y cobertura de chocolate blanco que tiene la forma de una luna llena con estrellas.",
+      "id": "1e26843e-e538-4e29-b1b2-77feed4ceec2"
+    },
+    {
+      "categoria": "pastel",
+      "imagen": "../img/pastel5.png",
+      "nombre": "Koko loko",
+      "precio": "569",
+      "descripcion": "Pastel de chocolate delicado y sabroso relleno de crema de coco y cubierto de coco rallado tostado. Un pastel tropical y exótico.",
+      "id": "7017779d-e16c-4a4f-86f8-6144bdd04725"
+    },
+    {
+      "categoria": "pastel",
+      "imagen": "../img/pastel6.png",
+      "nombre": "Choko Mousse",
+      "precio": "499",
+      "descripcion": "Pastel de chocolate esponjoso y húmedo relleno y cubierto de una suave mousse de chocolate negro. Un pastel ligero y delicioso.",
+      "id": "f279106c-7dbe-4801-9b4f-9b8a420c7556"
+    },
+    {
+      "categoria": "bebida",
+      "imagen": "../img/bebida5.png",
+      "nombre": "Bombastico",
+      "precio": "139",
+      "descripcion": "bebida de chocolate caliente con leche, cacao en polvo y bombones que se derriten al mezclarlos.",
+      "id": "b70f5f3f-6f82-4bed-81a7-1587af759be5"
+    },
+    {
+      "categoria": "bebida",
+      "imagen": "../img/bebida6.png",
+      "nombre": "Pink Black",
+      "precio": "169",
+      "descripcion": "Bebida de chocolate frío con leche, hielo, fresas y chispas de chocolate que tiene un sabor tropical y nutritivo.",
+      "id": "286e5117-0fa0-4648-b0a8-6d5364922637"
+    },
+    {
+      "categoria": "variedad",
+      "imagen": "../img/choko4.png",
+      "nombre": "Trufastica",
+      "precio": "229",
+      "descripcion": "trufa de chocolate negro con relleno de crema de menta y cobertura de chocolate negro con hojas de menta fresca. Tiene un sabor refrescante.",
+      "id": "12ab0383-d81b-431a-9022-5a4e0d7396d6"
+    },
+    {
+      "categoria": "variedad",
+      "imagen": "../img/choko5.png",
+      "nombre": "Cupcake Chu",
+      "precio": "89",
+      "descripcion": "cupcake de chocolate esponjoso y húmedo con relleno de chocolate fundido y cobertura de crema batida y chispas de colores. Un cupcake loco y delicioso",
+      "id": "ae8880f9-b63d-4907-a73a-6ea4acd52825"
+    },
+    {
+      "categoria": "variedad",
+      "imagen": "../img/choko6.png",
+      "nombre": "Chokotarta",
+      "precio": "149",
+      "descripcion": "Tarta de chocolate con almendras que hará estallar tu paladar de sabor. El bizcocho esponjoso se combina con una capa crujiente de almendras",
+      "id": "97d12ca7-4159-4e2d-93ad-c26ac66d6704"
     }
   ]
 }

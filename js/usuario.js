@@ -4,8 +4,8 @@ botonx.addEventListener("click", (evento) => {
     var usuario = document.getElementById("usuario").value;
     var contrasenia = document.getElementById("contrasenia").value;
 
-    var usuarioCorrecto = "a@mail.com";
-    var contraseniaCorrecta = "1234";
+    var usuarioCorrecto = "admin@mail.com";
+    var contraseniaCorrecta = "1111";
 
     if (usuario == usuarioCorrecto && contrasenia == contraseniaCorrecta) {
         window.location.href = "../screens/agregar.html";

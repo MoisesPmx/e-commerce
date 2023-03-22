@@ -15,14 +15,12 @@
 }
 .limpiar{
     position: absolute;
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--color_boton-login);
-    width: 2rem;
-    height: 2rem;
-    text-align: center;
-    border-radius: 50%;    
     cursor: pointer;
     display: none;
-    top: 35px;
+    top: 70px;
+    right: 30%;
+}
+
+.clean{
+    width: 30px;
 }
