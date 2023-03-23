@@ -20,13 +20,11 @@ const tablaProducto = (categoria, imagen, nombre, id) => {
     
     const iconTrash = card.querySelector('[data-trash]')
     iconTrash.addEventListener('click', () => {
-        const identificador = iconTrash.id;
-        console.log('Un click', identificador)
+        const identificador = iconTrash.id;        
         productoServicio.eliminarProducto(identificador).then(respuesta => {
-            console.log(respuesta)
+            window.location.href = "../screens/eliminado.html";
         }).catch(error => alert('Error en iconTrash'))
-    })
-    console.log()  
+    }) 
 
     return card;    
 }

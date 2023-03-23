@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Chokoreto - Descripción</title>
+        <title>Chokoreto - Eliminado</title>
         <script
             src="https://kit.fontawesome.com/11cc40342e.js"
             crossorigin="anonymous"
@@ -18,12 +18,10 @@
         <link rel="stylesheet" href="../css/reset.css" />
         <link rel="stylesheet" href="../css/style.css" />
         <link rel="stylesheet" href="../css/header.css" />
-        
-        <link rel="stylesheet" href="../css/productos.css" />
         <link rel="stylesheet" href="../css/footer.css" />
-        <link rel="stylesheet" href="../css/descripcion.css" />
-        <link rel="stylesheet" href="../css/resultado.css" />
-        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/login.css" />
+        <link rel="stylesheet" href="../css/mensaje.css" />
+        <link rel="stylesheet" href="../css/resultado.css">
     </head>
     <body class="body">
         <header class="cabecera">
@@ -58,50 +56,26 @@
                             </div>
                         </div>
                     </div>
-                    <a class="cabecera__login-contenedor" href="../screens/login.html">
-                        <span class="cabecera__login">Login</span>
+                    
                     </a>
                 </div>
             </div>
         </header>
-        <main class="main">
-            <section class="descripcion">
-                <div class="descripcion__contenedor" data-detail>
-                    <div class="descripcion__uno">
-                        <img
-                            src=""
-                            alt=""
-                            class="descripcion__img"
-                            data-imagen
-                        />
-                    </div>
-                    <div class="descripcion__dos">
-                        <span
-                            class="descripcion__nombre descripcion__item"
-                            data-nombre
-                            ></span>
-                        <span
-                            class="descripcion__precio descripcion__item"
-                            data-precio
-                        ></span>
-                        <span
-                            class="descripcion__texto descripcion__item"
-                            data-descripcion
-                        >
-                        </span>
-                    </div>
-                </div>
-            </section>
 
-            <section class="producto">
-                <div class="producto__contenedor">
-                    <span class="producto__titulo titulo"
-                        >Productos similares</span
-                    >
-                    <ul class="producto__lista" data-similares></ul>
-                </div>
+        <main class="main">
+            <section class="login">
+                <form action="" class="login__contenedor">
+                    <span class="mensaje__titulo titulo"
+                        >Producto eliminado
+                    <a href="../screens/menu-admin.html">
+                        <span class="cabecera__login" id="boton__login"
+                            >OK</span
+                        >
+                    </a>
+                </form>
             </section>
         </main>
+
         <footer class="footer">
             <div class="footer__contenedor">
                 <div class="footer__contenedorb">
@@ -194,8 +168,7 @@
             </div>
         </footer>
         <script type="module" src="../js/mensaje.js"></script>
+        <script type="module" src="../js/busqueda.js"></script>
         <script type="module" src="../js/search.js"></script>
-        <script type="module" src="../controllers/detalle-producto.js"></script>
-        <script type="module" src="../controllers/detalle-similares.js"></script>
     </body>
 </html>
