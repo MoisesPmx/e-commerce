@@ -24,7 +24,7 @@
     flex-direction: column;
 }
 .banner__contenedor{
-    width: 100%;
+    width: 80%;
     position: absolute;
     transform: translate(10%);
     top: 30vh;

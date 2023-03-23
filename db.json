@@ -1,19 +1,11 @@
 {
   "producto": [
     {
-      "categoria": "pastel",
-      "imagen": "../img/pastel1.png",
-      "nombre": "Mystery",
-      "precio": "529",
-      "descripcion": "Este pastel es una delicia para los amantes del chocolate. Con un relleno de dulce de leche y mensaje secreto dentro.",
-      "id": "2ef87986-7880-48ca-8d34-b107fc41f0c5"
-    },
-    {
       "categoria": "bebida",
       "imagen": "../img/bebida1.png",
       "nombre": "Karamelo",
       "precio": "129",
-      "descripcion": " una bebida de chocolate caliente con leche, cacao en polvo, caramelo líquido y sal marina que tiene un sabor dulce y salado.",
+      "descripcion": "Una bebida de chocolate caliente con leche, cacao en polvo, caramelo líquido y sal marina que tiene un sabor dulce y salado.",
       "id": "e6eaa6d1-8b04-46e7-9e9e-9a18a856307a"
     },
     {
@@ -21,7 +13,7 @@
       "imagen": "../img/choko1.png",
       "nombre": "Red Panda",
       "precio": "249",
-      "descripcion": "un chocolate cremoso y suave con trocitos de frambuesa, arándano y fresa que le dan un toque ácido y refrescante. ¡No dejes de probarlo!",
+      "descripcion": "Un chocolate cremoso y suave con trocitos de frambuesa, arándano y fresa que le dan un toque ácido y refrescante. ¡No dejes de probarlo!",
       "id": "0c979557-3670-4fe9-9c50-ec2c69fea23d"
     },
     {
@@ -143,6 +135,14 @@
       "precio": "149",
       "descripcion": "Tarta de chocolate con almendras que hará estallar tu paladar de sabor. El bizcocho esponjoso se combina con una capa crujiente de almendras",
       "id": "97d12ca7-4159-4e2d-93ad-c26ac66d6704"
+    },
+    {
+      "categoria": "pastel",
+      "imagen": "../img/pastel1.png",
+      "nombre": "Mystery",
+      "precio": "529",
+      "descripcion": "Este pastel es una delicia para los amantes del chocolate.  Con un relleno de dulce de leche y mensaje secreto adentro.",
+      "id": "268bb37b-be2f-4459-b7d6-ddb2a3c53fa9"
     }
   ]
 }
