@@ -25,3 +25,17 @@
 .clean{
     width: 30px;
 }
+@media screen and (max-width: 1007px) {
+    .cabecera__resultado{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .cabecera__resultado{
+        width: 200px;
+    }
+    .limpiar{
+        top: 70px;
+        right: 70px;
+    }
+}

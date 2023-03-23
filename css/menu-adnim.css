@@ -68,3 +68,25 @@ i {
 .fa-pencil:hover{
     color: var(--color_azul);
 }
+@media screen and (max-width: 640px) {
+    .producto{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    
+        padding: 5%;
+    }
+    .producto__item{
+        width: 100%;
+        
+        
+    }
+    .table{
+        display: flex;
+        flex-direction: column;
+    }
+    .producto__cabeza{
+        display: flex;
+        justify-content: center;
+    }
+}

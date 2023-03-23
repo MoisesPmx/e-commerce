@@ -2,7 +2,7 @@
     display: grid;
     height: auto;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 4rem auto 55vh;
+    grid-template-rows: 4rem auto auto;
     grid-template-areas: 
     "header header header"
     "main main main"
@@ -51,4 +51,27 @@
     height: 35px;
     border-radius: 10px;
     margin-top: 10px;
+}
+@media screen and (max-width: 1007px) {
+    .banner__contenedor{
+        padding-left: 5%;
+        top: 16vh;
+    }
+    .banner__img{
+        height: 25vh;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 640px) {
+  
+    .banner__titulo{
+        font-size: 1.6rem;
+    }
+    .banner__subtitulo{
+        font-size: .8rem;
+    }
+    .banner__contenedor{        
+        transform: translate(5%);
+        
+    }
 }

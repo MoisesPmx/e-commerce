@@ -53,3 +53,54 @@
     transform: translate(-200%);
     cursor: pointer;
 }
+@media screen and (max-width: 1007px) {
+    .cabecera__contenedora{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 640px) {
+  
+    .cabecera__contenedora{
+        flex-direction: row-reverse;  
+        width: 35%;
+    }
+    .cabecera__contenedorb{
+        padding: 0;
+        justify-content: center;
+    }
+    .comercio__logo{
+        padding-left: 20px;
+    }
+    .cabecera__buscar {
+        position: relative;        
+        justify-content: flex-end;        
+        width: 25%;
+    }
+    .cabecera__input {
+        width: 0;
+        transition: all 0.7s ease;        
+        padding: 15px 0 15px 0;
+    }
+    .cabecera__icono {
+        cursor: pointer;
+        transition: 0.5s;      
+        padding: 0px;    
+        transform: translate(100%);           
+    }
+    .cabecera__icono i {
+        transition: all 0.7s ease;
+    }
+    .cabecera__buscar:hover .cabecera__input {
+        width: 250px;
+        padding-left: 25px;
+    }
+    .cabecera__buscar:hover i {
+        transform: rotate(-360deg);
+    }
+    .cabecera__login-contenedor{
+        width: 180px;
+    }
+    .icono__agregar{
+        display: none;
+    }
+}

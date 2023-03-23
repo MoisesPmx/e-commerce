@@ -60,12 +60,13 @@
 @media screen and (max-width: 640px) {
     .descripcion__contenedor {
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         padding: 30px 4% 30px 4%;
     }
     .descripcion__dos {
         box-shadow: none;
         border-radius: 0 0 20px 20px;
+        height: 350px;
     }
     .descripcion__img{
         width: 100%;
@@ -73,8 +74,13 @@
     }
     .descripcion__uno{
         box-shadow: none;
+        height: auto;
     }
     .descripcion__texto{
         font-size: 1.2rem;
     }
+    .descripcion__img{
+        object-fit: cover;
+    }
+    
 }

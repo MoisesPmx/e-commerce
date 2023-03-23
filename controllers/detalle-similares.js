@@ -1,6 +1,7 @@
 import { productoServicio } from "../service/productos.js";
 const nuevoProducto = (categoria, imagen, nombre, precio, id) => {
     const card = document.createElement("div");
+    card.classList.add("card__div");
     const contenido = `
     <li class="producto__item" ${categoria}>
     <img

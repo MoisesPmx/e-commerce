@@ -85,7 +85,7 @@
         padding-right: 2%;
     }
     .producto__contenedor {
-        padding: 0 3% 0 3%;
+        padding: 0 10% 0 10%;
     }
     .producto__lista {
         gap: 25px;
@@ -116,15 +116,25 @@
         padding-bottom: 25px;
     }
     .titulo {
-        padding-left: 0;        
+        padding-left: 5%;      
+          
     }
     .producto__todolink {
-        padding-right: 3%;
+        padding-right: 5%;
     }
     .producto__lista {
-        gap: 13px;
+        gap: 5px;
+    }
+    .produto__lista div{
+        width: 80px;
     }
     .producto__item {
-        width: 40%;
+        width: 80%;
+    }
+    .producto__contenedor {
+        padding: 0;
+    }
+    .agregarProducto__boton{
+        margin-left: 25px;
     }
 }
