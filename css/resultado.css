@@ -13,6 +13,7 @@
     border-style: dashed;
     border-width: 2px;
     transform: translate(-20%);
+    z-index: 1;
 }
 .limpiar{
     position: absolute;
@@ -20,6 +21,7 @@
     display: none;
     top: 70px;
     right: 33%;
+    z-index: 2;
 }
 
 .clean{

@@ -13,7 +13,7 @@ fetch("http://localhost:3000/producto")
     .then((response) => response.json())
     .then((json) => (data = json));
 
-button.addEventListener("click", () => {
+input.addEventListener("keyup", () => {
     var value = input.value.toLowerCase();
     var productos = data.filter((item) =>
         item.nombre.toLowerCase().includes(value)

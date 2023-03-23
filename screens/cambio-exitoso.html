@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="../css/mensaje.css" />
         <link rel="stylesheet" href="../css/resultado.css">
     </head>
-    <body>
+    <body class="body">
         <header class="cabecera">
             <div class="cabecera__contenedor">
                 <a href="../index.html">
@@ -33,17 +33,31 @@
                         class="comercio__logo"
                     />
                 </a>
-                <div class="cabecera__contenedorb">
-                    <div class="cabecera__buscar">
-                        <input
-                            class="cabecera__input"
-                            type="search"
-                            placeholder="Buscar"
-                        />
-                        <div class="cabecera__icono">
-                            <i class="fa fa-search"></i>
+                <div class="cabecera__contenedora">
+                    <div class="cabecera__contenedorb">
+                        <div class="cabecera__buscar">
+                            <input
+                                class="cabecera__input"
+                                type="search"
+                                placeholder="Buscar"
+                                id="cabecera__input"
+                            />
+                            <div class="cabecera__icono">
+                                <i id="icono__buscar" class="fa fa-search"></i>
+                            </div>
+                            
+                            <div
+                                class="cabecera__resultado"
+                                id="resultado"
+                            ></div>
+                            <div class="limpiar" id="limpiar"
+                                >
+                                <img class="clean" src="../img/clean.png" alt="">
+                            </div>
                         </div>
-                    </div>                    
+                    </div>
+                    
+                    </a>
                 </div>
             </div>
         </header>
