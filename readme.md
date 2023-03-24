@@ -16,6 +16,6 @@ __Tercer challenge del programa ONE.__ Se nos pidió crear un sitio web de venta
 
 ![Dispositivos](https://github.com/MoisesPmx/e-commerce/blob/master/img/mockup.png)
 
-###Muestra de cómo funciona el sitio:
+###Demostración del sitio funcionando:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9E36KBl7ins" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[Video de YouTube](https://www.youtube.com/embed/9E36KBl7ins)
