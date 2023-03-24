@@ -18,4 +18,4 @@ __Tercer challenge del programa ONE.__ Se nos pidió crear un sitio web de venta
 
 ### Demostración del sitio funcionando:
 
-### [Video de YouTube](https://www.youtube.com/embed/9E36KBl7ins)
+### [Video de YouTube](https://youtu.be/9E36KBl7ins)
