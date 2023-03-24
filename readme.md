@@ -1,9 +1,9 @@
-#Challenge E-Commerce
-##ONE Oracle Next Education | Alura Latam
+# Challenge E-Commerce
+## ONE Oracle Next Education | Alura Latam
 
 __Tercer challenge del programa ONE.__ Se nos pidió crear un sitio web de venta de algún producto. En mi caso escogí el tema de __Productos de Chocolate.__ 
 
-###Las características del sitio son las siguientes:
+### Las características del sitio son las siguientes:
 
 - Se pueden ver los productos por categoría. 
 - Barra de búsqueda en el encabezado de página.
@@ -16,6 +16,6 @@ __Tercer challenge del programa ONE.__ Se nos pidió crear un sitio web de venta
 
 ![Dispositivos](https://github.com/MoisesPmx/e-commerce/blob/master/img/mockup.png)
 
-###Demostración del sitio funcionando:
+### Demostración del sitio funcionando:
 
 [Video de YouTube](https://www.youtube.com/embed/9E36KBl7ins)
